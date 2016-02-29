@@ -2006,7 +2006,7 @@ FUNCTION {book}
            { "author and editor" editor either.or.check }
            'skip$
 	 if$
-   output.continue.year.check  ouput  
+   output.continue.year.check  output  
        }
      if$
      new.block

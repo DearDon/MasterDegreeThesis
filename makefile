@@ -6,10 +6,14 @@ TEX = xelatex
 #  要执行的命令 (自己设置)：
 paper.pdf: BIBbase/ref.bib paper.tex includefile/*.tex
 	$(TEX) paper.tex
-#	bibtex paper.aux
+	bibtex paper.aux
 	$(TEX) paper.tex > /dev/null
 	$(TEX) paper.tex > /dev/null
 # > /dev/null
 #	@rm -f $@.aux $@.log  2> /dev/null
 # 2> /dev/null
+
+# if some problems occur, batter clear the aux and rebuild it
+clear:
+	rm *.aux includefile/*.aux
 	
