@@ -1,0 +1,76 @@
+%-*- coding: UTF-8 -*-
+\documentclass[forlib]{WHUMaster}% 选项 forprint: 交付打印时, 建议加上此选项, 以消除彩色链接文字, 避免彩色字迹打印偏淡.
+                         % 选项 forlib: 提交给图书馆的电子版, 需要加上选项forlib,
+%以消除空白页和彩色链接.
+
+%%%=== 图片路径=== %%%
+\graphicspath{ {figures/} }        % 图片放在 figures 文件夹.
+%------------------------------
+\bibliographystyle{whuthesis} % 宏包natbib参考文献样式
+%=====================================================
+\begin{document}
+%----------------------------------------------------
+\fenleihao{}  % 根据自己学科填写！！！
+\miji{}
+\UDC{}
+\bianhao{10486}
+%------------------标题信息--------------------------
+\title{波形拟合反演震源机制的定权研究及误差评定}
+\Etitle{The crustal structure of Yunnan region from receiver function analysis}
+\author{邓东平}
+%\author{~}
+\StudentNumber{2013202140004}
+%\StudentNumber{~}
+\Eauthor{Zhang Pan}
+%\Eauthor{~}
+\Csupervisor{朱良保\quad 教授}
+%\Csupervisor{~}
+\Esupervisor{Prof.~Zhu Liangbao}
+%\Esupervisor{~}
+\Cmajor{固体地球物理学}       %专业名
+\Emajor{Solid Geophysics}
+\Cspeciality{地震学}          %研究方向
+\Especiality{Seismology}
+\Schoolname{School of Geodesy and Geomatics}
+%\Schoolname{~}
+\date{二〇一六年四月}
+\Edate{April, 2016}
+%------------------------------------------------------
+\pdfbookmark[0]{封面}{title}         % 封面页加到 pdf 书签
+\maketitle   %生成中文封面
+%---------------------------------------
+\include{includefile/frontmatter} % 英文封面和郑重声明
+%---------------------------------------
+\frontmatter 
+\pagenumbering{Roman}% 页码换成大写罗马数字
+%--------------------------------------
+\include{includefile/midmatter} %中英文摘要
+%-------------------------------------
+%---把目录加入到书签---%%%%%%%%%%%%%%
+\pdfbookmark[0]{目录}{toc}%%%%%%%%%%%%
+\tableofcontents
+%---------------------------------------
+\mainmatter % 开始正文
+\baselineskip=20pt %正文行距20磅
+%---------------------------------------
+\include{includefile/ch1} %第一章 引言
+%---------------------------------------
+\include{includefile/ch2} %第二章 原理分析
+%---------------------------------------
+\include{includefile/ch3} %第三章 理论实验
+%---------------------------------------
+\include{includefile/ch4} %第四章 实例应用
+%------------------------------------------
+\include{includefile/ch5} %第五章 总结和展望
+%---参考文献------
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{参考文献}   
+\bibliography{BIBbase/ref}%参考文献
+%---------------------------------------
+%\include{includefile/pub}
+%-----------------------------------------
+\backmatter
+\include{includefile/backmatter}
+\cleardoublepage
+\end{document}
