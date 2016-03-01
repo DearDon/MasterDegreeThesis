@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -8,6 +8,17 @@
 \bibitem[Ammon and J.(1999)]{Ligorria1999}
 Ammon J~P~L, J. C, 1999.
 \newblock Iterative deconvolution and receiver-function estimation[J].
-\newblock Bulletin of the Seismological Society of America, 89(5):1395--1400.
+\newblock Bulletin of the Seismological Society of America, 89:1395--1400.
+
+\bibitem[Armijo et al.(1986)]{Armijo1986}
+Armijo R, Tapponnier P, Mercier J~L, et al, 1986.
+\newblock Quaternary extension in southern Tibet: Field observations and
+  tectonic implications[J].
+\newblock Journal of Geophysical Research: Solid Earth, 91(B14):13803--13872.
+
+\bibitem[Aki and Richards(2002)]{Aki2002}
+Aki K, Richards P,
+\newblock Quantitative Seismology.
+\newblock 2002, Beijin: University Science Books.
 
 \end{thebibliography}
