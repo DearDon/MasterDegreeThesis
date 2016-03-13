@@ -775,6 +775,23 @@ FUNCTION {format.book.title}                                     %  Nothing need
  %  authordate3.bst.
 }
 
+FUNCTION {format.book.booktitle}                                     %  Nothing needs
+{booktitle empty$                                              %  doing here in
+   { "" }                                                  %  authordate1.bst
+   {
+     typeoflit empty$
+       {format.title "[M]" * booktitle output.check}   
+       {format.title booktitle output.check}
+     if$
+   }
+ if$
+ TypeofLit empty$
+   {""}   
+   { "["  TypeofLit * "]" * * }
+ if$
+ %  authordate3.bst.
+}
+
 
 FUNCTION {format.cbook.title}                %wk                 %  Nothing needs
 {title empty$                                              %  doing here in
@@ -2010,7 +2027,7 @@ FUNCTION {book}
        }
      if$
      new.block
-     format.book.title output 
+     format.book.booktitle output 
      new.block
      crossref missing$
        {
