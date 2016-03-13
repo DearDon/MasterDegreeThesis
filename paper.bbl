@@ -1,24 +1,94 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Ammon and J.(1999)]{Ligorria1999}
-Ammon J~P~L, J. C, 1999.
-\newblock Iterative deconvolution and receiver-function estimation[J].
-\newblock Bulletin of the Seismological Society of America, 89:1395--1400.
+\bibitem[Stein and Wysession(2003)]{Stein2003}
+Stein S, Wysession M,
+\newblock An Introduction to Seismology, Earthquakes, and Earth Structur[M].
+\newblock 2003, Malden: Blackwell Publishing.
 
-\bibitem[Armijo et al.(1986)]{Armijo1986}
-Armijo R, Tapponnier P, Mercier J~L, et al, 1986.
-\newblock Quaternary extension in southern Tibet: Field observations and
-  tectonic implications[J].
-\newblock Journal of Geophysical Research: Solid Earth, 91(B14):13803--13872.
+\bibitem[Wald(2005)]{Wald2005}
+Wald D~J,
+\newblock 2005, US: US Geological Survey.
 
-\bibitem[Aki and Richards(2002)]{Aki2002}
-Aki K, Richards P,
-\newblock Quantitative Seismology.
-\newblock 2002, Beijin: University Science Books.
+\bibitem[Satake(2007)]{Satake2007}
+Satake K, 2007.
+\newblock Tsunamis[J].
+\newblock Treatise on geophysics, 4:483–511.
+
+\bibitem[King and Dev{\`e}s(2007)]{King2007}
+King G, Dev{\`e}s M, 2007.
+\newblock Fault interaction, earthquake stress changes, and the evolution of
+  seismicity[J].
+\newblock Treatise on geophysics, 4:225--256.
+
+\bibitem[Kilb(2001)]{Kilb2001}
+Kilb D.
+\newblock Fault Parameter Constraints Using Relocated Earthquakes: Implications
+  for Stress Change Calculations[C].
+\newblock In: AGU Fall Meeting Abstracts.
+\newblock 2001.
+
+\bibitem[Nolet(1990)]{Nolet1990}
+Nolet G, 1990.
+\newblock Partitioned waveform inversion and two-dimensional structure under
+  the network of autonomously recording seismographs[J].
+\newblock Journal of Geophysical Research: Solid Earth (1978--2012),
+  95(B6):8499--8512.
+
+\bibitem[Manaman et al.(2011)]{Manaman2011}
+Manaman N~S, Shomali H, Koyi H, 2011.
+\newblock New constraints on upper-mantle S -velocity structure and crustal
+  thickness of the Iranian plateau using partitioned waveform inversion[J].
+\newblock Geophysical Journal International, 184(1):247--267.
+
+\bibitem[Friederich(2003)]{Friederich2003}
+Friederich W, 2003.
+\newblock The S-velocity structure of the East Asian mantle from inversion of
+  shear and surface waveforms[J].
+\newblock Geophysical Journal International, 153(1):88--102.
+
+\bibitem[Zielhuis and Nolet(1994)]{Zielhuis1994}
+Zielhuis A, Nolet G, 1994.
+\newblock Shear-wave velocity variations in the upper mantle beneath central
+  Europe[J].
+\newblock Geophysical Journal International, 117(3):695--715.
+
+\bibitem[Cao et al.(2001)]{Cao2001}
+Cao X~L, Zhu J~S, Zhao L~F, et al, 2001.
+\newblock Three dimensional shear wave velocity structure of crust and upper
+  mantle in South China Sea and its adjacent regions by surface waveform
+  inversion[J].
+\newblock Acta Seismologica Sinica, 14(2):117--128.
+
+\bibitem[Lee and Nolet(1997)]{Lee1997}
+Lee S~v~d, Nolet G, 1997.
+\newblock Upper mantle S velocity structure of North America[J].
+\newblock Journal of Geophysical Research: Solid Earth, 102(B10):22815--22838.
+
+\bibitem[Zhao and Helmberger(1994)]{Zhao1994}
+Zhao L~S, Helmberger D~V, 1994.
+\newblock Source estimation from broadband regional seismograms[J].
+\newblock Bulletin of the Seismological Society of America, 84(1):91--104.
+
+\bibitem[Zhu and Helmberger(1996)]{Zhu1996}
+Zhu L, Helmberger D~V, 1996.
+\newblock Advancement in source estimation techniques using broadband regional
+  seismograms[J].
+\newblock Bulletin of the Seismological Society of America, 86(5):1634--1641.
+
+\bibitem[Tan et al.(2006)]{Tan2006}
+Tan Y, Zhu L, Helmberger D~V, et al, 2006.
+\newblock Locating and modeling regional earthquakes with two stations[J].
+\newblock Journal of Geophysical Research: Solid Earth (1978--2012),
+  111(B1):B01306.
+
+\bibitem[Herrmann(1989)]{Herrmann1989}
+Herrmann R~B,
+\newblock Computer programs in seismolog[M].
+\newblock 1989, Missouri: Saint Louis University.
 
 \end{thebibliography}

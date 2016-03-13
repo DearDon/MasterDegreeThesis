@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  1 MAR 2016 17:54
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  13 MAR 2016 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1692,27 +1692,6 @@ tly
 
 LaTeX Warning: Label `cha:intro' multiply defined.
 
-
-LaTeX Warning: Label `sec:first' multiply defined.
-
-
-LaTeX Warning: Label `chap1:sample:table' multiply defined.
-
-
-LaTeX Warning: Label `sec:basictable' multiply defined.
-
-
-LaTeX Warning: Label `sec:complicatedtable' multiply defined.
-
-
-LaTeX Warning: Label `tab:template-files' multiply defined.
-
-
-LaTeX Warning: Label `tab:tabexamp1' multiply defined.
-
-
-LaTeX Warning: Label `tab:subtable' multiply defined.
-
 ) (./includefile/ch3.aux
 
 LaTeX Warning: Label `cha:intro' multiply defined.
@@ -2144,44 +2123,25 @@ File: figures/whu.eps Graphic file (type eps)
 
 (./includefile/ch1.tex
 第一章
-[1
+) [1
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 78.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Overfull \hbox (18.12987pt too wide) in alignment at lines 89--97
-[][] 
- []
-
-
-Overfull \hbox (9.27933pt too wide) in paragraph at lines 77--100
-[]\EU1/AdobeSongStd-Light(0)/m/n/12.045 模 板 中 关 于 表 格 的 宏 包 有 三 个：| \EU1/lmss/m
-/n/12.045 booktabs\EU1/AdobeSongStd-Light(0)/m/n/12.045 、| \EU1/lmss/m/n/12.045
- array \EU1/AdobeSongStd-Light(0)/m/n/12.045 和 \EU1/lmss/m/n/12.045 longtabular
-\EU1/AdobeSongStd-Light(0)/m/n/12.045 ，|  命 令 有 一 个 []\EU1/lmtt/m/n/12.045 \hli
-newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
- []
-
-[2] [3]
-
-LaTeX Warning: Reference `tab:tabexamp2' on page 4 undefined on input line 161.
-
-
-[4]) [5]
 \openout2 = `includefile/ch2.aux'.
 
  (./includefile/ch2.tex
 第二章
-[6
+[2
 
 
 
 ]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 77.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Overfull \hbox (18.12987pt too wide) in alignment at lines 88--96
 [][] 
  []
@@ -2195,17 +2155,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[7] [8]
+[3] [4]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 9 undefined on input line 160.
+LaTeX Warning: Reference `tab:tabexamp2' on page 5 undefined on input line 160.
 
 
-[9]) [10]
+[5]) [6]
 \openout2 = `includefile/ch3.aux'.
 
  (./includefile/ch3.tex
 第三章
-[11
+[7
 
 
 
@@ -2223,17 +2183,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[12] [13]
+[8] [9]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 14 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 10 undefined on input line 160
 .
 
-[14]) [15]
+[10]) [11]
 \openout2 = `includefile/ch4.aux'.
 
  (./includefile/ch4.tex
 第四章
-[16
+[12
 
 
 
@@ -2251,17 +2211,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[17] [18]
+[13] [14]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 19 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 15 undefined on input line 160
 .
 
-[19]) [20]
+[15]) [16]
 \openout2 = `includefile/ch5.aux'.
 
  (./includefile/ch5.tex
 第五章
-[21
+[17
 
 
 
@@ -2279,24 +2239,24 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[22] [23]
+[18] [19]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 24 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 20 undefined on input line 160
 .
 
-[24]) [25] (./paper.bbl) [26
+[20]) [21] (./paper.bbl [22
 
 
 
-]
+]) [23]
 \openout2 = `includefile/backmatter.aux'.
 
- (./includefile/backmatter.tex [27
+ (./includefile/backmatter.tex [24
 
 
 
 
-]) [28
+]) [25
 
 ]
 \tf@thm=\write5
@@ -2319,12 +2279,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 32138 strings out of 493706
- 632041 string characters out of 6145768
- 657569 words of memory out of 5000000
- 35021 multiletter control sequences out of 15000+600000
+ 32173 strings out of 493706
+ 632640 string characters out of 6145768
+ 656935 words of memory out of 5000000
+ 35056 multiletter control sequences out of 15000+600000
  16298 words of font info for 113 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  71i,21n,79p,10418b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (35 pages).
+Output written on paper.pdf (32 pages).
