@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -119,5 +119,25 @@ Duputel Z, Rivera L, Fukahata Y, et al, 2012.
 \newblock
   CAP方法反演震源机制的误差分析:以胶东半岛两次显著中等地震为例[J].
 \newblock 地球物理学报, 58:453--462.
+
+\bibitem[Hardebeck and Shearer(2002)]{Hardebeck2002}
+Hardebeck J~L, Shearer P~M, 2002.
+\newblock A new method for determining first-motion focal mechanisms[J].
+\newblock Bulletin of the Seismological Society of America, 92(6):2264--2276.
+
+\bibitem[Efron(1979)]{Efron1979}
+Efron B, 1979.
+\newblock Bootstrap methods: another look at the jackknife[J].
+\newblock The annals of Statistics, 7:1--26.
+
+\bibitem[Silver and Jordan(1982)]{Silver1982}
+Silver P~G, Jordan T~H, 1982.
+\newblock Optimal estimation of scalar seismic moment[J].
+\newblock Geophysical Journal International, 70(3):755--787.
+
+\bibitem[Jost and Herrmann(1989)]{Jost1989}
+Jost M~u, Herrmann R, 1989.
+\newblock A student’s guide to and review of moment tensors[J].
+\newblock Seismological Research Letters, 60(2):37--57.
 
 \end{thebibliography}
