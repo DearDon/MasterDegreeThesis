@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  18 MAR 2016 16:19
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  18 MAR 2016 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2123,16 +2123,16 @@ File: figures/whu.eps Graphic file (type eps)
 
 (./includefile/ch1.tex
 第一章
-) [1
+[1
 
 
 
-]
+]) [2]
 \openout2 = `includefile/ch2.aux'.
 
  (./includefile/ch2.tex
 第二章
-[2
+[3
 
 
 
@@ -2155,17 +2155,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[3] [4]
+[4] [5]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 5 undefined on input line 160.
+LaTeX Warning: Reference `tab:tabexamp2' on page 6 undefined on input line 160.
 
 
-[5]) [6]
+[6]) [7]
 \openout2 = `includefile/ch3.aux'.
 
  (./includefile/ch3.tex
 第三章
-[7
+[8
 
 
 
@@ -2183,17 +2183,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[8] [9]
+[9] [10]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 10 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 11 undefined on input line 160
 .
 
-[10]) [11]
+[11]) [12]
 \openout2 = `includefile/ch4.aux'.
 
  (./includefile/ch4.tex
 第四章
-[12
+[13
 
 
 
@@ -2211,17 +2211,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[13] [14]
+[14] [15]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 15 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 16 undefined on input line 160
 .
 
-[15]) [16]
+[16]) [17]
 \openout2 = `includefile/ch5.aux'.
 
  (./includefile/ch5.tex
 第五章
-[17
+[18
 
 
 
@@ -2239,24 +2239,24 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[18] [19]
+[19] [20]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 20 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 21 undefined on input line 160
 .
 
-[20]) [21] (./paper.bbl [22
+[21]) [22] (./paper.bbl [23
 
 
 
-]) [23]
+]) [24]
 \openout2 = `includefile/backmatter.aux'.
 
- (./includefile/backmatter.tex [24
+ (./includefile/backmatter.tex [25
 
 
 
 
-]) [25
+]) [26
 
 ]
 \tf@thm=\write5
@@ -2279,12 +2279,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 32173 strings out of 493706
- 632640 string characters out of 6145768
- 656935 words of memory out of 5000000
- 35056 multiletter control sequences out of 15000+600000
+ 32207 strings out of 493706
+ 634124 string characters out of 6145768
+ 657092 words of memory out of 5000000
+ 35090 multiletter control sequences out of 15000+600000
  16298 words of font info for 113 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  71i,21n,79p,10418b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (32 pages).
+Output written on paper.pdf (33 pages).

@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -90,5 +90,34 @@ Tan Y, Zhu L, Helmberger D~V, et al, 2006.
 Herrmann R~B,
 \newblock Computer programs in seismolog[M].
 \newblock 1989, Missouri: Saint Louis University.
+
+\bibitem[Luo et al.(2015)]{Luo2015}
+Luo Y, Zhao L, Zeng X, et al, 2015.
+\newblock Focal mechanisms of the Lushan earthquake sequence and spatial
+  variation of the stress field[J].
+\newblock Science China Earth Sciences, 58(7):1148--1158.
+
+\bibitem[D’Amico et al.(2014)]{D’Amico2014}
+D’Amico S, Cammarata L, Cangemi M, et al, 2014.
+\newblock Seismic moment tensors and regional stress in the area of the
+  December 2013--January 2014, Matese earthquake sequence (Italy)[J].
+\newblock Journal of Geodynamics, 82:118--124.
+
+\bibitem[赵博 et al.(2013)]{赵博2013}
+赵博, 高原, 黄志斌, et al, 2013.
+\newblock 四川芦山 Ms7. O 地震余震序列双差定位,
+  震源机制及应力场反演[J].
+\newblock 地球物理学报, 56(10):3385--3395.
+
+\bibitem[Duputel et al.(2012)]{Duputel2012}
+Duputel Z, Rivera L, Fukahata Y, et al, 2012.
+\newblock Uncertainty estimations for seismic source inversions[J].
+\newblock Geophysical Journal International, 190(2):1243--1256.
+
+\bibitem[郑建常 et al.(2015)]{郑建常2015}
+郑建常, 林眉, 王鹏, et al, 2015.
+\newblock
+  CAP方法反演震源机制的误差分析:以胶东半岛两次显著中等地震为例[J].
+\newblock 地球物理学报, 58:453--462.
 
 \end{thebibliography}
