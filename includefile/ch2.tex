@@ -12,8 +12,107 @@
 理论研究表明，同步地震点源\citep{Silver1982}所激发的地震波场如公式\ref{eq01}\citep{Jost1989}。
 \begin{equation}
 \label{eq01}
-d_n(x,t)=M_{ki}[G_{nk,i}*s(t)](1)
+d_n(x,t)=M_{ki}[G_{nk,i}*s(t)]
 \end{equation}
+
+其中$s(t)$为震源时间函数，$Mkj$为地震矩张量，$G_{nk,i}$为格林函数，从上式可知理论波形$d$与$Mi$为线性关系。根据\citet{Kikuchi1991}的分解方法，任意地震矩张量均可由6个简单地震矩张量通过线性组合而成，如公式\ref{eq02}。
+\begin{equation}
+\label{eq02}
+M=\sum_{k=1}^6a_kM_k
+\end{equation}
+
+公式\ref{eq02}中等式右边的$M_k$如公式\ref{eq03}所示。
+\begin{equation}
+\label{eq03}
+\begin{array}{ccc}
+M_1=\left[\begin{array}{ccc}
+0 & 1 & 0\\
+1 & 0 & 0\\
+0 & 0 & 0\\
+\end{array}\right]&
+M_2=\left[\begin{array}{ccc}
+1 & 0 & 0\\
+0 & -1 & 0\\
+0 & 0 & 0\\
+\end{array}\right]&
+M_3=\left[\begin{array}{ccc}
+0 & 0 & 0\\
+0 & 0 & 1\\
+0 & 1 & 0\\
+\end{array}\right]\\
+M_4=\left[\begin{array}{ccc}
+0 & 0 & 1\\
+0 & 0 & 0\\
+1 & 0 & 0\\
+\end{array}\right]&
+M_5=\left[\begin{array}{ccc}
+-1 & 0 & 0\\
+0 & 0 & 0\\
+0 & 0 & 1\\
+\end{array}\right]&
+M_6=\left[\begin{array}{ccc}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1\\
+\end{array}\right]\\
+\end{array}
+\end{equation}
+
+$M_1$-$M_6$为6个简单的地震源，其中$M_6$代表爆炸源，其余5个均为剪切位错源，根据公式\ref{eq02}和公式\ref{eq03}推导可知系数a与M各分量间的对应关系如公式\ref{eq04}和公式\ref{eq05}。
+\begin{equation}
+\label{eq04}
+M=\left[\begin{array}{ccc}
+a_2-a_5+a_6 & a_1 & a_4\\
+a_1 & -a_2+a_6 & a_3\\
+a_4 & a_3 & a_5+a_6\\
+\end{array}\right]\\
+\end{equation}
+
+\begin{equation}
+\label{eq05}
+\left[\begin{array}{c}
+a_1\\
+a_2\\
+a_3\\
+a_4\\
+a_5\\
+a_6\\
+\end{array}\right]=
+\left[\begin{array}{c}
+M_{12}\\
+(M_{11}+M_{33}-2M_{22})/3\\
+M_{23}\\
+M_{13}\\
+(2M_{33}-M_{11}-M_{22})/3\\
+(M_{11}+M_{22}+M_{33})/3\\
+\end{array}\right]
+\end{equation}
+
+将公式\ref{eq02}代入公式\ref{eq01}，并省略波形分量指标$n$可得到公式\ref{eq06}。
+\begin{equation}
+\label{eq06}
+d=\sum_{k=1}^{6}a_kd_k(06)
+\end{equation}
+
+再将公式\ref{eq05}所示的$a$与$M$关系代入公式\ref{eq06}可得到$d$关于$M$与$d_k$的公式\ref{eq07}。
+\begin{equation}
+\label{eq07}
+\begin{array}{rl}\\
+d=&M_{11}(1/3d_2-1/3d_5+1/3d_6)+M_{12}d_1+M_{13}d_4\\
+&+M_{22}(-2/3d_2-1/3d_5+1/3d_6)+M_{23}d_3\\
+&+M_{33}(1/3d_2+2/3d_5+1/3d_6))
+\end{array}
+\end{equation}
+
+为进一步简化，将公式\ref{eq07}中$M$矩阵的6个分量依次记为 $M_1,M_2,M_3,M_4,M_5,M_6$，并将与$Mi$相乘的关于$d_k$的多项式简记为$G_i$，于是得到了简洁的6项求和的理论波形公式\ref{eq08}。在此我们按照\citet{Stein2003}专著中关于地震矩反演章节中对格林函数的推广定义，将公式\ref{eq08}中的$G_i$也称为格林函数，此格林函数即是我们之后在CPS反演中需要用到的。
+\begin{equation}
+\label{eq08}
+d=G_iM_i(i=1,2,...6)
+\end{equation}
+
+于是任意地震矩产生的波形均可由其矩张量矩阵和6个格林函数线性叠加得到，而格林函数又可由6个已知基本地震矩激发的波形$d_k(k=1,2,...6)$叠加得到。由于以上运算均是线性运算，在$d_k$已知的情况下，在计算机中经两次迭加得到$d$速度非常快。
+
+至此，我们已经将任意剪切位错源的波形分解为6个基本震源波形的线性叠加，而叠加的系数可由该位错源的震源机制唯一确定。现在的关键问题转化为计算6个基本震源对应的理论波形$d_k$，这可通过之后要介绍的格林函数库快速实现。
 
 
 \section{定权分析}

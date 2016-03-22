@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -7,7 +7,6 @@
 
 \bibitem[Stein and Wysession(2003)]{Stein2003}
 Stein S, Wysession M,
-\newblock An Introduction to Seismology, Earthquakes, and Earth Structur[M].
 \newblock 2003, Malden: Blackwell Publishing.
 
 \bibitem[Wald(2005)]{Wald2005}
@@ -88,7 +87,6 @@ Tan Y, Zhu L, Helmberger D~V, et al, 2006.
 
 \bibitem[Herrmann(1989)]{Herrmann1989}
 Herrmann R~B,
-\newblock Computer programs in seismolog[M].
 \newblock 1989, Missouri: Saint Louis University.
 
 \bibitem[Luo et al.(2015)]{Luo2015}
@@ -139,5 +137,10 @@ Silver P~G, Jordan T~H, 1982.
 Jost M~u, Herrmann R, 1989.
 \newblock A student’s guide to and review of moment tensors[J].
 \newblock Seismological Research Letters, 60(2):37--57.
+
+\bibitem[Kikuchi and Kanamori(1991)]{Kikuchi1991}
+Kikuchi M, Kanamori H, 1991.
+\newblock Inversion of complex body waves—III[J].
+\newblock Bulletin of the Seismological Society of America, 81:2335--2350.
 
 \end{thebibliography}

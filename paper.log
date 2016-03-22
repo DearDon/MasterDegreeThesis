@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  18 MAR 2016 17:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  22 MAR 2016 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2136,18 +2136,18 @@ File: figures/whu.eps Graphic file (type eps)
 
 
 
-]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 72.
-
+] [5]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 171
+.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (18.12987pt too wide) in alignment at lines 83--91
+Overfull \hbox (18.12987pt too wide) in alignment at lines 182--190
 [][] 
  []
 
 
-Overfull \hbox (9.27933pt too wide) in paragraph at lines 71--94
+Overfull \hbox (9.27933pt too wide) in paragraph at lines 170--193
 []\EU1/AdobeSongStd-Light(0)/m/n/12.045 模 板 中 关 于 表 格 的 宏 包 有 三 个：| \EU1/lmss/m
 /n/12.045 booktabs\EU1/AdobeSongStd-Light(0)/m/n/12.045 、| \EU1/lmss/m/n/12.045
  array \EU1/AdobeSongStd-Light(0)/m/n/12.045 和 \EU1/lmss/m/n/12.045 longtabular
@@ -2155,17 +2155,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 71--94
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[5] [6]
+[6] [7]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 7 undefined on input line 155.
+LaTeX Warning: Reference `tab:tabexamp2' on page 8 undefined on input line 254.
 
 
-) [7]
+[8]) [9]
 \openout2 = `includefile/ch3.aux'.
 
  (./includefile/ch3.tex
 第三章
-[8
+[10
 
 
 
@@ -2183,17 +2183,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[9] [10]
+[11] [12]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 11 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 13 undefined on input line 160
 .
 
-[11]) [12]
+[13]) [14]
 \openout2 = `includefile/ch4.aux'.
 
  (./includefile/ch4.tex
 第四章
-[13
+[15
 
 
 
@@ -2211,17 +2211,17 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[14] [15]
+[16] [17]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 16 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 18 undefined on input line 160
 .
 
-[16]) [17]
+[18]) [19]
 \openout2 = `includefile/ch5.aux'.
 
  (./includefile/ch5.tex
 第五章
-[18
+[20
 
 
 
@@ -2239,25 +2239,24 @@ Overfull \hbox (9.27933pt too wide) in paragraph at lines 76--99
 newd\EU1/AdobeSongStd-Light(0)/m/n/12.045 。|
  []
 
-[19] [20]
+[21] [22]
 
-LaTeX Warning: Reference `tab:tabexamp2' on page 21 undefined on input line 160
+LaTeX Warning: Reference `tab:tabexamp2' on page 23 undefined on input line 160
 .
 
-[21]) [22] (./paper.bbl [23
+[23]) [24] (./paper.bbl [25
 
 
 
-] [24]) [25]
+]) [26]
 \openout2 = `includefile/backmatter.aux'.
 
- (./includefile/backmatter.tex [26
+ (./includefile/backmatter.tex [27
 
 
 
 
-])
-[27
+]) [28
 
 ]
 \tf@thm=\write5
@@ -2265,8 +2264,9 @@ LaTeX Warning: Reference `tab:tabexamp2' on page 21 undefined on input line 160
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
- (./paper.aux (./includefile/frontmatter.aux) (./includefile/midmatter.aux) (./
-includefile/ch1.aux) (./includefile/ch2.aux) (./includefile/ch3.aux)
+
+(./paper.aux (./includefile/frontmatter.aux) (./includefile/midmatter.aux)
+(./includefile/ch1.aux) (./includefile/ch2.aux) (./includefile/ch3.aux)
 (./includefile/ch4.aux) (./includefile/ch5.aux) (./includefile/backmatter.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 76.
@@ -2279,12 +2279,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 32223 strings out of 493706
- 634431 string characters out of 6145768
- 657266 words of memory out of 5000000
- 35106 multiletter control sequences out of 15000+600000
+ 32240 strings out of 493706
+ 634601 string characters out of 6145768
+ 657546 words of memory out of 5000000
+ 35123 multiletter control sequences out of 15000+600000
  16298 words of font info for 113 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  71i,21n,79p,10418b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (34 pages).
+Output written on paper.pdf (35 pages).
