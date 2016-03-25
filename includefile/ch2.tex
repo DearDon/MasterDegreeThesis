@@ -7,6 +7,16 @@
 \chapter{原理分析}
 \label{cha:intro}
 
+\section{震源基础}
+1906年旧金山发生了一次在地震学上具有重在研究意义的地震，地震前后对圣安德烈亚斯断层的研究结果\citep{Milne1910}使人们普遍认为发生地震的原因是震源处的断层发生了滑移错动，巨大的势能转化为了热能及地震波等能力。这种错动可由位错理论进行解释，位错理论认为地震的发生是因为应力长期缓慢的大量积累，最终达到了断层锁定的极限，引发断层面（原有断层或地震新生断层）两侧发生突然的位错，导致了应力释放并形成地震。自此以后，对于地震震源的研究就开始集中到断层面的研究上。通常认为断层面两侧的应力在地震发生前后都是连续的，只有位移在断层面两侧突然间断，所以研究清楚断层面上的所有运动学信息是研究整个震源过程的主要内容。如果进一步简化，将地震发生时断层的位错视为纯剪切的点源位错（事实证明该简化很多情况下是合理的，且本文只讨论该情况），则利用三个描述断层的参数便可完整描述震源的物理过程（不考虑时间函数），并称该三参数为震源的机制解。求解震源机制的过程便是求解该三个参数的过程，该三参数具体定义如图\ref{fig01}所示\citep{程万正2006}。
+\begin{figure}
+\centering
+%  \includegraphics[width=\textwidth]{fig01.png} 
+  \includegraphics{fig01.png} 
+  \caption{震源机制三个参数的具体意义}
+  \label{fig01}
+\end{figure}
+
 \section{反演方法}
 \subsection{波形分解}
 理论研究表明，同步地震点源\citep{Silver1982}所激发的地震波场如公式\ref{eq01}\citep{Jost1989}。
@@ -91,7 +101,7 @@ M_{13}\\
 将公式\ref{eq02}代入公式\ref{eq01}，并省略波形分量指标$n$可得到公式\ref{eq06}。
 \begin{equation}
 \label{eq06}
-d=\sum_{k=1}^{6}a_kd_k(06)
+d=\sum_{k=1}^{6}a_kd_k
 \end{equation}
 
 再将公式\ref{eq05}所示的$a$与$M$关系代入公式\ref{eq06}可得到$d$关于$M$与$d_k$的公式\ref{eq07}。
@@ -114,8 +124,102 @@ d=G_iM_i(i=1,2,...6)
 
 至此，我们已经将任意剪切位错源的波形分解为6个基本震源波形的线性叠加，而叠加的系数可由该位错源的震源机制唯一确定。现在的关键问题转化为计算6个基本震源对应的理论波形$d_k$，这可通过之后要介绍的格林函数库快速实现。
 
+\subsection{格林函数库}
 
-\section{定权分析}
+通常情况下天然地震由断层间错动造成，震源均近似纯剪切位错源。习惯上人们用破裂断层的三个角度参数——走向，倾角和滑动角来更直观地描述震源机制，地震矩张量与震源机制三个参数的对应关系如公式\ref{eq09}所示\citep{Aki1980}。
+\begin{equation}
+\label{eq09}
+\left\{
+    \begin{array}{l}
+    M_{11}=-M_0(sin{\delta}cos{\lambda}sin{2\phi_s}+sin{2\delta}sin{\lambda}sin^2{\phi_s})\\
+    M_{12}=M_0(sin{\delta}cos{\lambda}cos{2\phi_s}+1/2sin{2\delta}sin{\lambda}sin{2\phi_s})\\
+    M_{13}=-M_0(cos{\delta}cos{\lambda}cos{\phi_s}+cos{2\delta}sin{\lambda}sin{\phi_s})\\
+    M_{22}=M_0(sin{\delta}cos{\lambda}cos{2\phi_s}-sin{2\delta}sin{\lambda}cos^2{\phi_s})\\
+    M_{23}=-M_0(cos{\delta}cos{\lambda}sin{\phi_s}-cos{2\delta}sin{\lambda}cos^2{\phi_s})\\
+    M_{33}=M_0sin{2\delta}sin{\lambda}\\
+    \end{array}
+\right.
+\end{equation}
+
+其中，$\phi_s$是走向，$\delta$是倾角，$lambda$是滑动角。 $M_0$是最早由\citet{Aki1966}提出的用来度量震源长周期辐射的强度，最初称为地震矩。由于是一个标量，现在又叫作标量地震矩，代表了地震的强度。将公式\ref{eq09}代入公式\ref{eq08}即将公式转化为了理论波形关于震源机制三参数的形式。
+
+现在我们进一步研究$d_k$如何计算，在均匀介质\citep{Ben-Menahem1963}和层状介质\citep{Haskell1964}模型的面波波场辐射理论基础上，\citet{Wang1980} 进一步得到了剪切位错源在层状速度模型中所激发的地震波场，在柱坐标频域下的表示，如公式\ref{eq10}所示。
+\begin{equation}
+\label{eq10}
+\left\{
+    \begin{array}{l}
+    U_z(r,\phi,0,\omega)=Z_{SS}{\cdot}s_2+Z_{DS}{\cdot}s_3+Z_{DD}{\cdot}s_1\\
+    U_r(r,\phi,0,\omega)=R_{SS}{\cdot}s_2+R_{DS}{\cdot}s_3+R_{DD}{\cdot}s_1\\
+    U_{\phi}(r,\phi,0,\omega)=T_{SS}{\cdot}t_2+T_{DS}{\cdot}t_1\\
+    \end{array}
+\right.
+\end{equation}
+
+公式\ref{eq10}中各符号意义如\ref{eq11}所示，\ref{eq11}中$\phi$是地震观测台站相对震源的方位角，$\lambda$，$\delta$，${\phi}_s$分别代表断层滑动角，倾角，走向。公式\ref{eq10}中的$Z_{SS}$，$R_{SS}$，$T_{SS}$分别对应于$\delta=90^\circ$，$\lambda=0^\circ$的纯走滑型断裂的理论地震图的垂向、径向、切向分量；$Z_{DS}$，$R_{DS}$，$T_{DS}$分别代表$lambda=90^\circ$，$\delta=90^\circ$的纯倾滑型逆冲断层激发的地震波的垂向、径向、切向分量；$Z_{DD}$和$R_{DD}$分别对应于倾角$\delta=45^\circ$，滑动角$\lambda=90^\circ$的逆冲断层激发的理论地震波的垂向、径向分量。它们8个是合成任意剪切位错源理论地震图所需要的全部基本函数，它们是对波数K的积分表达\citep{Wang1980} 。格林函数库即由大量的不同震中距，不同震源深度对应的这8个基本函数组成。
+\begin{equation}
+\label{eq11}
+\left\{
+    \begin{array}{l}
+    s_1=1/2{sin\lambda}sin{2\delta}\\
+    s_2={cos\lambda}{sin\delta}sin2({\phi}-{\phi}_s)+1/2{sin\lambda}{sin2\delta}cos2({\phi}-{\phi}_s)\\
+    s_3=-{cos\lambda}{cos\delta}cos({\phi}-{\phi}_s)+{sin\lambda}{cos2\delta}sin({\phi}-{\phi}_s)\\
+    t_1={cos\lambda}{cos\delta}sin({\phi}-{\phi}_s)+{sin\lambda}{cos2\delta}cos({\phi}-{\phi}_s)\\
+    t_2={cos\lambda}{sin\delta}cos2({\phi}-{\phi}_s)-1/2{sin\lambda}{sin2\delta}sin2({\phi}-{\phi}_s)\\
+    \end{array}
+\right.
+\end{equation}
+
+利用公式\ref{eq09}可推算出公式\ref{eq03}中所示6个基本地震所对应的震源机制，即各地震的3个角度参数，将其代入公式\ref{eq10}，并积分变换到时间域，便得到了$d_k$，进而得到$d$。而根据公式\ref{eq11}知$s_1$、$s_2$、$s_3$、$t_1$、$t_2$等量均与$\omega$无关，结合公式\ref{eq10}可推得时间域的$Z_{SS}$，$R_{DD}$等量与$d_k$的关系也是线性的，可通过快速线性叠加得到。
+综上分析知，计算$d$的关键在于得到该速度模型下，对应震中距和震源深度的$Z_{SS}$，$R_{DD}$等基本函数。而计算该函数由于要经过大量积分运算，计算速度非常慢，在迭代或搜索反演过程中实时计算一系列该基本函数是不可取的。在实际工作中通过将研究区域按一定精度格点划分，并事先计算好各格点的基本函数，并将大量的各点所对应的基本函数归档存储为格林函数库。之后理论波形数值计算需要时，直接在格林函数库中调用对应震中距和震源深度的基本函数即可，这样便实现了$d$的快速计算。经检验，这样叠加计算理论波形的速度非常快，能满足格点搜索时大量理论波形图计算的需要。
+
+\subsection{格点搜索}
+
+CAP与CPS方法计算波形的拟合度时使用了不同的目标函数，CAP方法先将理论波形与实测波形通过互相关运算进行时差调整，再计算调整后的波形间残差范数（L1或L2）\citep{Zhao1994}，该残差范数定为为最终的目标函数，CPS方法则直接将理论与实测波形的互相关函数作为目标函数。为了单独分析权重因素对反演的影响，对比CPS与CAP不同定权的差异，后文反演试验及讨论均基于CPS的目标函数方案。CPS方法中的互相关目标函数Fit如公式\ref{eq12}定义。
+\begin{equation}
+\label{eq12}
+Fit=(\int_{Tb}^{Te}Y(t)G(t)dt)^2/(\int_{Tb}^{Te}Y(t)Y(t)dt*\int_{Tb}^{Te}G(t)G(t)dt)
+\end{equation}
+
+在计算机中进行数值计算时使用公式\ref{eq13}所示离散形式：
+\begin{equation}
+\label{eq13}
+Fit=[\sum_{j=1}^{N}\sum_{m-1}^{6}yg(j,m,k)M_m]^2/{[\sum_{j=1}^{N}yy(j)][\sum_{j=1}^{N}\sum_{m=1}^{6}\sum_{n=1}^{6}gg(j,m,n)M_mM_n]}
+\end{equation}
+
+公式\ref{eq13}中各符号表示的含义如公式\ref{eq14}和公式\ref{eq15}所示。
+\begin{equation}
+\label{eq14}
+\left\{
+    \begin{aligned}
+    yy(j)&=\sum_{h=1}^{H(j)}y(j,h)y(j,h)wt(j)\\
+    gg(j,m,n))&=\sum_{h=1}^{H(j)}g_{m}(j,h)g_{n}(j,h)wt(j)\\
+    yg(j,m,k))&=\sum_{h=1}^{H(j)-|k|}\mathop{{y}'}(j,h)\mathop{{g}'_{m}}(j,h)wt(j)
+    \end{aligned}
+\right.
+\end{equation}
+
+\begin{equation}
+\label{eq15}
+\left\{
+    \begin{aligned}
+    \mathop{{y}'}(j,h)&=y(j,h+k) &k\geq0 \\
+    \mathop{{g}'}(j,h)&=g(j,h)   &k\geq0 \\
+    \mathop{{y}'}(j,h)&=y(j,h)   &k<0 \\
+    \mathop{{g}'}(j,h)&=g(j,h-k) &k<0 \\
+    \end{aligned}   \\
+\right.
+\end{equation}
+
+N为参与反演的观测波形总道数，$H(j),wt(j)$分别为第$j(j=1,2,...N)$道波形的总采样点数及权重因子，$y(j,h),g(j,h)$分别为公式\ref{eq08}中，第$j$道观测波形$d(j)$及其对应的格林函数$Gi(j)$经过相同的数据处理（去噪等），可直接用于反演的波形的第$h(h=1,H)$个采样点,$k$为使$yg(j,m,k)$取得最大值的整数，它是Tan等\citep{Tan2006}提出的到时差平移参数，可以有效地减小系统性误差的影响。本文计算的矩震级$M_w$是由波形振幅比值计算得到的标量矩转换得到的，采用如公式\ref{eq16}所示2005年被CoSOI（Commission on Seismological Observation and Interpretation）采纳的IASPEI标准，其中Mo的单位为dyne-cm。
+\begin{equation}
+\label{eq16}
+	M_w=2/3(logM_0-16.1)
+\end{equation}
+
+理论地震图可用多种方法计算，本文通过之前章节所述的用格林函数库快速合成理论波形，而格林函数库则用CPS软件包中的hprep96,hspec96,hpulse96子程序计算得到，该子程序的基本原理是波数积分法。反演时考虑到震源机制解的全空间（走向0°-360°，倾角0°-90°，滑动角-180°-180°）较小，通常采用全空间格点搜索法。
+格点搜索法将全空间划分为一定精度间隔的格点，并依次遍历全部格点找寻目标函数最值点，最值处对应格点即为最优解。本文如公式\ref{eq13}所示目标函数Fit的具体计算过程如下，将遍历到的格点震源机制转换为等价地震矩张量\citep{Jost1989}，同时用格林函数库快速求出公式\ref{eq08}中对应的格林函数$Gi$，将格林函数$Gi$，观测波形$d$进行必要且相同的滤波、截取时窗处理，并将处理后格林函数$g$，观测波形$y$和地震矩张量$M$与代入公式\ref{eq13}，计算即可求得该格点处的拟合度Fit。
+
+\section{定权优化}
 \label{sec:first}
 
 苏轼（1037-1101），北宋文学家、书画家。字子瞻，号东坡居士，眉州眉山（今属四川）人

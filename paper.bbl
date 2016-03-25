@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -128,6 +128,16 @@ Efron B, 1979.
 \newblock Bootstrap methods: another look at the jackknife[J].
 \newblock The annals of Statistics, 7:1--26.
 
+\bibitem[Milne(1910)]{Milne1910}
+Milne J, 1910.
+\newblock The California Earthquake of April 18, 1906[J].
+\newblock Nature, 84(2128):165--166.
+
+\bibitem[程万正 et al.(2006)]{程万正2006}
+程万正, 阮祥, 张永久, 2006.
+\newblock 川滇次级地块震源机制解类型与一致性参数[J].
+\newblock 地震学报, 28(6):561--573.
+
 \bibitem[Silver and Jordan(1982)]{Silver1982}
 Silver P~G, Jordan T~H, 1982.
 \newblock Optimal estimation of scalar seismic moment[J].
@@ -142,5 +152,34 @@ Jost M~u, Herrmann R, 1989.
 Kikuchi M, Kanamori H, 1991.
 \newblock Inversion of complex body waves—III[J].
 \newblock Bulletin of the Seismological Society of America, 81:2335--2350.
+
+\bibitem[Aki and Richards(1980)]{Aki1980}
+Aki K, Richards P~G,
+\newblock 1980, San Francisco: Freeman.
+
+\bibitem[Aki(1966)]{Aki1966}
+Aki K, 1966.
+\newblock Generation and Propagation of G Waves from the Niigata Earthquake of
+  June 16, 1964. : Part 2. Estimation of earthquake moment, released energy,
+  and stress-strain drop from the G wave spectrum.[J].
+\newblock 東京大学地震研究所彙報, 44:73--88.
+
+\bibitem[Ben-Menahem(1963)]{Ben-Menahem1963}
+Ben-Menahem A, 1963.
+\newblock Radiation Pattern of Rayleigh Waves from a Fault of Arbitrary Dip and
+  Direction of Motion in a Homogeneous Medium[J].
+\newblock Bulletin of the Seismological Society of America, 53(3):125--148.
+
+\bibitem[Haskell(1964)]{Haskell1964}
+Haskell N, 1964.
+\newblock Total energy and energy spectral density of elastic wave radiation
+  from propagating faults[J].
+\newblock Bulletin of the Seismological Society of America, 54(6A):1811--1841.
+
+\bibitem[Wang and Herrmann(1980)]{Wang1980}
+Wang C, Herrmann R, 1980.
+\newblock A numerical study of P-, SV-, and SH-wave generation in a plane
+  layered medium[J].
+\newblock Bulletin of the Seismological Society of America, 70(4):1015--1036.
 
 \end{thebibliography}
