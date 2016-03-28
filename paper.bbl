@@ -1,492 +1,454 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{81}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[\protect\astroncite{Aki}{1966}]{Aki1966}
-Aki, K.\leavevmode\nopagebreak\newline 1966.
-\newblock Generation and propagation of g waves from the niigata earthquake of
-  june 16, 1964. : Part 2. estimation of earthquake moment, released energy,
-  and stress-strain drop from the g wave spectrum.
-\newblock {\em 東京大学地震研究所彙報}, 44:73--88.
+\bibitem[Stein and Wysession(2003)]{Stein2003}
+Stein S, Wysession M,
+\newblock 2003, Malden: Blackwell Publishing.
 
-\bibitem[\protect\astroncite{Aki and Richards}{1980}]{Aki1980}
-Aki, K. and P.~G. Richards\leavevmode\nopagebreak\newline 1980.
-\newblock {\em Quantitative Seismology, Theory and Methods}.
-\newblock San Francisco: Freeman.
+\bibitem[Wald(2005)]{Wald2005}
+Wald D~J,
+\newblock 2005, US: US Geological Survey.
 
-\bibitem[\protect\astroncite{Arne et~al.}{1997}]{Arne1997}
-Arne, D., B.~Worley, C.~Wilson, S.~F. Chen, D.~Foster, Z.~L. Luo, S.~G. Liu,
-  and P.~Dirks\leavevmode\nopagebreak\newline 1997.
-\newblock Differential exhumation in response to episodic thrusting along the
-  eastern margin of the tibetan plateau.
-\newblock {\em Tectonophysics}, 280(3):239--256.
+\bibitem[Satake(2007)]{Satake2007}
+Satake K, 2007.
+\newblock Tsunamis[J].
+\newblock Treatise on geophysics, 4:483–511.
 
-\bibitem[\protect\astroncite{Balakina et~al.}{1961}]{Balakina1961}
-Balakina, L., E.~Savarensky, and A.~Vvedenskaya\leavevmode\nopagebreak\newline
-  1961.
-\newblock On determination of earthquake mechanism.
-\newblock {\em Physics and Chemistry of the Earth}, 4:211--238.
-
-\bibitem[\protect\astroncite{Ben-Menahem}{1963}]{Ben-Menahem1963}
-Ben-Menahem, A.\leavevmode\nopagebreak\newline 1963.
-\newblock Radiation pattern of rayleigh waves from a fault of arbitrary dip and
-  direction of motion in a homogeneous medium.
-\newblock {\em Bulletin of the Seismological Society of America},
-  53(3):125--148.
-
-\bibitem[\protect\astroncite{Burchfiel et~al.}{1995}]{Burchfiel1995}
-Burchfiel, B., C.~Zhiliang, L.~Yupinc, and
-  L.~Royden\leavevmode\nopagebreak\newline 1995.
-\newblock Tectonics of the longmen shan and adjacent regions, central china.
-\newblock {\em International Geology Review}, 37(8):661--735.
-
-\bibitem[\protect\astroncite{Cao et~al.}{2001}]{Cao2001}
-Cao, X.~L., J.~S. Zhu, L.~F. Zhao, J.~M. Cao, and X.~H.
-  Hong\leavevmode\nopagebreak\newline 2001.
-\newblock Three dimensional shear wave velocity structure of crust and upper
-  mantle in south china sea and its adjacent regions by surface waveform
-  inversion.
-\newblock {\em Acta Seismologica Sinica}, 14(2):117--128.
-
-\bibitem[\protect\astroncite{Clark and Royden}{2000}]{Clark2000}
-Clark, M.~K. and L.~H. Royden\leavevmode\nopagebreak\newline 2000.
-\newblock Topographic ooze: Building the eastern margin of tibet by lower
-  crustal flow.
-\newblock {\em Geology}, 28(8):703--706.
-
-\bibitem[\protect\astroncite{Densmore et~al.}{2007}]{Densmore2007}
-Densmore, A.~L., M.~A. Ellis, Y.~Li, R.~Zhou, G.~S. Hancock, and
-  N.~Richardson\leavevmode\nopagebreak\newline 2007.
-\newblock Active tectonics of the beichuan and pengguan faults at the eastern
-  margin of the tibetan plateau.
-\newblock {\em Tectonics}, 26(4):TC4005.
-
-\bibitem[\protect\astroncite{Duputel et~al.}{2012}]{Duputel2012}
-Duputel, Z., L.~Rivera, Y.~Fukahata, and
-  H.~Kanamori\leavevmode\nopagebreak\newline 2012.
-\newblock Uncertainty estimations for seismic source inversions.
-\newblock {\em Geophysical Journal International}, 190(2):1243--1256.
-
-\bibitem[\protect\astroncite{D’Amico et~al.}{2014}]{DAmico2014}
-D’Amico, S., L.~Cammarata, M.~Cangemi, D.~Cavallaro, R.~M. Di~Martino, and
-  M.~F. Carlino\leavevmode\nopagebreak\newline 2014.
-\newblock Seismic moment tensors and regional stress in the area of the
-  december 2013--january 2014, matese earthquake sequence (italy).
-\newblock {\em Journal of Geodynamics}, 82:118--124.
-
-\bibitem[\protect\astroncite{Efron}{1979}]{Efron1979}
-Efron, B.\leavevmode\nopagebreak\newline 1979.
-\newblock Bootstrap methods: another look at the jackknife.
-\newblock {\em The annals of Statistics}, 7:1--26.
-
-\bibitem[\protect\astroncite{Friederich}{2003}]{Friederich2003}
-Friederich, W.\leavevmode\nopagebreak\newline 2003.
-\newblock The s-velocity structure of the east asian mantle from inversion of
-  shear and surface waveforms.
-\newblock {\em Geophysical Journal International}, 153(1):88--102.
-
-\bibitem[\protect\astroncite{Gao et~al.}{2012}]{Gao2012}
-Gao, Y., Y.~Shi, J.~Wu, and L.~Tai\leavevmode\nopagebreak\newline 2012.
-\newblock Shear-wave splitting in the crust: Regional compressive stress from
-  polarizations of fast shear-waves.
-\newblock {\em Earthquake Science}, 25(1):35--45.
-
-\bibitem[\protect\astroncite{Gao et~al.}{2011}]{Gao2011}
-Gao, Y., J.~Wu, Y.~Fukao, Y.~Shi, and A.~Zhu\leavevmode\nopagebreak\newline
-  2011.
-\newblock Shear wave splitting in the crust in north china: stress, faults and
-  tectonic implications.
-\newblock {\em Geophysical Journal International}, 187(2):642--654.
-
-\bibitem[\protect\astroncite{Hardebeck and Shearer}{2002}]{Hardebeck2002}
-Hardebeck, J.~L. and P.~M. Shearer\leavevmode\nopagebreak\newline 2002.
-\newblock A new method for determining first-motion focal mechanisms.
-\newblock {\em Bulletin of the Seismological Society of America},
-  92(6):2264--2276.
-
-\bibitem[\protect\astroncite{Harris}{2007}]{Harris2007}
-Harris, N.\leavevmode\nopagebreak\newline 2007.
-\newblock Channel flow and the himalayan--tibetan orogen: a critical review.
-\newblock {\em Journal of the Geological Society}, 164(3):511--523.
-
-\bibitem[\protect\astroncite{Haskell}{1964}]{Haskell1964}
-Haskell, N.\leavevmode\nopagebreak\newline 1964.
-\newblock Total energy and energy spectral density of elastic wave radiation
-  from propagating faults.
-\newblock {\em Bulletin of the Seismological Society of America},
-  54(6A):1811--1841.
-
-\bibitem[\protect\astroncite{Herrmann and Wang}{1985}]{Herrmann1985}
-Herrmann, R. and C.~Wang\leavevmode\nopagebreak\newline 1985.
-\newblock A comparison of synthetic seismograms.
-\newblock {\em Bulletin of the Seismological Society of America}, 75(1):41--56.
-
-\bibitem[\protect\astroncite{Herrmann}{1979}]{Herrmann1979}
-Herrmann, R.~B.\leavevmode\nopagebreak\newline 1979.
-\newblock Sh-wave generation by dislocation sources—a numerical study.
-\newblock {\em Bulletin of the Seismological Society of America}, 69(1):1--15.
-
-\bibitem[\protect\astroncite{Herrmann}{1989}]{Herrmann1989}
-Herrmann, R.~B.\leavevmode\nopagebreak\newline 1989.
-\newblock {\em Computer programs in seismology}.
-\newblock Missouri: Saint Louis University.
-
-\bibitem[\protect\astroncite{Jia et~al.}{2006}]{Jia2006}
-Jia, D., G.~Wei, Z.~Chen, B.~Li, Q.~Zeng, and
-  G.~Yang\leavevmode\nopagebreak\newline 2006.
-\newblock Longmen shan fold-thrust belt and its relation to the western sichuan
-  basin in central china: New insights from hydrocarbon exploration.
-\newblock {\em Aapg Bulletin}, 90(9):1425--1447.
-
-\bibitem[\protect\astroncite{Jost and Herrmann}{1989}]{Jost1989}
-Jost, M.~u. and R.~Herrmann\leavevmode\nopagebreak\newline 1989.
-\newblock A student’s guide to and review of moment tensors.
-\newblock {\em Seismological Research Letters}, 60(2):37--57.
-
-\bibitem[\protect\astroncite{Kennett et~al.}{1995}]{Kennett1995}
-Kennett, B., E.~Engdahl, and R.~Buland\leavevmode\nopagebreak\newline 1995.
-\newblock Constraints on seismic velocities in the earth from traveltimes.
-\newblock {\em Geophysical Journal International}, 122(1):108--124.
-
-\bibitem[\protect\astroncite{Kikuchi and Kanamori}{1991}]{Kikuchi1991}
-Kikuchi, M. and H.~Kanamori\leavevmode\nopagebreak\newline 1991.
-\newblock Inversion of complex body waves—iii.
-\newblock {\em Bulletin of the Seismological Society of America},
-  81:2335--2350.
-
-\bibitem[\protect\astroncite{Kilb}{2001}]{Kilb2001}
-Kilb, D.\leavevmode\nopagebreak\newline 2001.
-\newblock Fault parameter constraints using relocated earthquakes: Implications
-  for stress change calculations.
-\newblock In {\em AGU Fall Meeting Abstracts}.
-
-\bibitem[\protect\astroncite{King and Dev{\`e}s}{2007}]{King2007}
-King, G. and M.~Dev{\`e}s\leavevmode\nopagebreak\newline 2007.
+\bibitem[King and Dev{\`e}s(2007)]{King2007}
+King G, Dev{\`e}s M, 2007.
 \newblock Fault interaction, earthquake stress changes, and the evolution of
-  seismicity.
-\newblock {\em Treatise on geophysics}, 4:225--256.
+  seismicity[J].
+\newblock Treatise on geophysics, 4:225--256.
 
-\bibitem[\protect\astroncite{Kisslinger}{1980}]{Kisslinger1980}
-Kisslinger, C.\leavevmode\nopagebreak\newline 1980.
-\newblock Evaluation of s to p amplitude ratios for determining focal
-  mechanisms from regional network observations.
-\newblock {\em Bulletin of the Seismological Society of America},
-  70(4):999--1014.
+\bibitem[Kilb(2001)]{Kilb2001}
+Kilb D.
+\newblock Fault Parameter Constraints Using Relocated Earthquakes: Implications
+  for Stress Change Calculations[C].
+\newblock In: AGU Fall Meeting Abstracts.
+\newblock 2001.
 
-\bibitem[\protect\astroncite{Kisslinger et~al.}{1982}]{Kisslinger1982}
-Kisslinger, C., J.~R. Bowman, and K.~Koch\leavevmode\nopagebreak\newline 1982.
-\newblock Determination of focal mechanism from sv/p amplitude ratios at small
-  distances.
-\newblock {\em Physics of the Earth \& Planetary Interiors}, 30(2-3):172–176.
-
-\bibitem[\protect\astroncite{Lee and Nolet}{1997}]{Lee1997}
-Lee, S. v.~d. and G.~Nolet\leavevmode\nopagebreak\newline 1997.
-\newblock Upper mantle s velocity structure of north america.
-\newblock {\em Journal of Geophysical Research: Solid Earth},
-  102(B10):22815--22838.
-
-\bibitem[\protect\astroncite{Luo et~al.}{2015}]{Luo2015}
-Luo, Y., L.~Zhao, X.~Zeng, and Y.~Gao\leavevmode\nopagebreak\newline 2015.
-\newblock Focal mechanisms of the lushan earthquake sequence and spatial
-  variation of the stress field.
-\newblock {\em Science China Earth Sciences}, 58(7):1148--1158.
-
-\bibitem[\protect\astroncite{Manaman et~al.}{2011}]{Manaman2011}
-Manaman, N.~S., H.~Shomali, and H.~Koyi\leavevmode\nopagebreak\newline 2011.
-\newblock New constraints on upper-mantle s -velocity structure and crustal
-  thickness of the iranian plateau using partitioned waveform inversion.
-\newblock {\em Geophysical Journal International}, 184(1):247--267.
-
-\bibitem[\protect\astroncite{Meng et~al.}{2005}]{Meng2005}
-Meng, Q.-R., E.~Wang, and J.-M. Hu\leavevmode\nopagebreak\newline 2005.
-\newblock Mesozoic sedimentary evolution of the northwest sichuan basin:
-  Implication for continued clockwise rotation of the south china block.
-\newblock {\em Geological Society of America Bulletin}, 117(3-4):396--410.
-
-\bibitem[\protect\astroncite{Milne}{1910}]{Milne1910}
-Milne, J.\leavevmode\nopagebreak\newline 1910.
-\newblock The california earthquake of april 18, 1906.
-\newblock {\em Nature}, 84(2128):165--166.
-
-\bibitem[\protect\astroncite{N{\'a}b{\v{e}}lek and Xia}{1995}]{Nabvelek1995}
-N{\'a}b{\v{e}}lek, J. and G.~Xia\leavevmode\nopagebreak\newline 1995.
-\newblock Moment-tensor analysis using regional data: Application to the 25
-  march, 1993, scotts mills, oregon, earthquake.
-\newblock {\em Geophysical research letters}, 22(1):13--16.
-
-\bibitem[\protect\astroncite{Nakano}{1923}]{Nakano1923}
-Nakano, H.\leavevmode\nopagebreak\newline 1923.
-\newblock Notes on the nature of the forces which give rise to the earthquake
-  motions.
-\newblock {\em Seismol. Bull}, 1:92--120.
-
-\bibitem[\protect\astroncite{Nolet}{1990}]{Nolet1990}
-Nolet, G.\leavevmode\nopagebreak\newline 1990.
+\bibitem[Nolet(1990)]{Nolet1990}
+Nolet G, 1990.
 \newblock Partitioned waveform inversion and two-dimensional structure under
-  the network of autonomously recording seismographs.
-\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  the network of autonomously recording seismographs[J].
+\newblock Journal of Geophysical Research: Solid Earth (1978--2012),
   95(B6):8499--8512.
 
-\bibitem[\protect\astroncite{Reid}{1910}]{Reid1910}
-Reid, H.\leavevmode\nopagebreak\newline 1910.
-\newblock The mechanics of the earthquake, in: The cal- ifornia earthquake of
-  april 18, 1906.
-\newblock In {\em Report of the State Earthquake Investigation Commission,
-  Carnegie Institution}, volume~2, P.~ 192, Washington, DC.
+\bibitem[Manaman et al.(2011)]{Manaman2011}
+Manaman N~S, Shomali H, Koyi H, 2011.
+\newblock New constraints on upper-mantle S -velocity structure and crustal
+  thickness of the Iranian plateau using partitioned waveform inversion[J].
+\newblock Geophysical Journal International, 184(1):247--267.
 
-\bibitem[\protect\astroncite{Ritsema and Lay}{1993}]{Ritsema1993}
-Ritsema, J. and T.~Lay\leavevmode\nopagebreak\newline 1993.
-\newblock Rapid source mechanism determination of large (mw≥ 5) earthquakes
-  in the western united states.
-\newblock {\em Geophysical research letters}, 20(15):1611--1614.
+\bibitem[Friederich(2003)]{Friederich2003}
+Friederich W, 2003.
+\newblock The S-velocity structure of the East Asian mantle from inversion of
+  shear and surface waveforms[J].
+\newblock Geophysical Journal International, 153(1):88--102.
 
-\bibitem[\protect\astroncite{Royden et~al.}{1997}]{Royden1997}
-Royden, L.~H., B.~C. Burchfiel, R.~W. King, E.~Wang, Z.~Chen, F.~Shen, and
-  Y.~Liu\leavevmode\nopagebreak\newline 1997.
-\newblock Surface deformation and lower crustal flow in eastern tibet.
-\newblock {\em science}, 276(5313):788--790.
+\bibitem[Zielhuis and Nolet(1994)]{Zielhuis1994}
+Zielhuis A, Nolet G, 1994.
+\newblock Shear-wave velocity variations in the upper mantle beneath central
+  Europe[J].
+\newblock Geophysical Journal International, 117(3):695--715.
 
-\bibitem[\protect\astroncite{Satake}{2007}]{Satake2007}
-Satake, K.\leavevmode\nopagebreak\newline 2007.
-\newblock Tsunamis.
-\newblock {\em Treatise on geophysics}, 4:483–511.
+\bibitem[Cao et al.(2001)]{Cao2001}
+Cao X~L, Zhu J~S, Zhao L~F, et al, 2001.
+\newblock Three dimensional shear wave velocity structure of crust and upper
+  mantle in South China Sea and its adjacent regions by surface waveform
+  inversion[J].
+\newblock Acta Seismologica Sinica, 14(2):117--128.
 
-\bibitem[\protect\astroncite{Silver and Jordan}{1982}]{Silver1982}
-Silver, P.~G. and T.~H. Jordan\leavevmode\nopagebreak\newline 1982.
-\newblock Optimal estimation of scalar seismic moment.
-\newblock {\em Geophysical Journal International}, 70(3):755--787.
+\bibitem[Lee and Nolet(1997)]{Lee1997}
+Lee S~v~d, Nolet G, 1997.
+\newblock Upper mantle S velocity structure of North America[J].
+\newblock Journal of Geophysical Research: Solid Earth, 102(B10):22815--22838.
 
-\bibitem[\protect\astroncite{Stein and Wysession}{2003}]{Stein2003}
-Stein, S. and M.~Wysession\leavevmode\nopagebreak\newline 2003.
-\newblock {\em An Introduction to Seismology, Earthquakes, and Earth
-  Structure}.
-\newblock Malden: Blackwell Publishing.
+\bibitem[Balakina et al.(1961)]{Balakina1961}
+Balakina L, Savarensky E, Vvedenskaya A, 1961.
+\newblock On determination of earthquake mechanism[J].
+\newblock Physics and Chemistry of the Earth, 4:211--238.
 
-\bibitem[\protect\astroncite{Tan et~al.}{2006}]{Tan2006}
-Tan, Y., L.~Zhu, D.~V. Helmberger, and C.~K.
-  Saikia\leavevmode\nopagebreak\newline 2006.
-\newblock Locating and modeling regional earthquakes with two stations.
-\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+\bibitem[Reid(1910)]{Reid1910}
+Reid H.
+\newblock The mechanics of the earthquake, In: The Cal- ifornia Earthquake of
+  April 18, 1906[C].
+\newblock In: Report of the State Earthquake Investigation Commission, Carnegie
+  Institution.
+\newblock 1910. 2:192.
+
+\bibitem[Milne(1910)]{Milne1910}
+Milne J, 1910.
+\newblock The California Earthquake of April 18, 1906[J].
+\newblock Nature, 84(2128):165--166.
+
+\bibitem[Nakano(1923)]{Nakano1923}
+Nakano H, 1923.
+\newblock Notes on the nature of the forces which give rise to the earthquake
+  motions[J].
+\newblock Seismol. Bull, 1:92--120.
+
+\bibitem[Kisslinger et al.(1982)]{Kisslinger1982}
+Kisslinger C, Bowman J~R, Koch K, 1982.
+\newblock Determination of focal mechanism from SV/P amplitude ratios at small
+  distances[J].
+\newblock Physics of the Earth \& Planetary Interiors, 30(2-3):172–176.
+
+\bibitem[Kisslinger(1980)]{Kisslinger1980}
+Kisslinger C, 1980.
+\newblock Evaluation of S to P amplitude ratios for determining focal
+  mechanisms from regional network observations[J].
+\newblock Bulletin of the Seismological Society of America, 70(4):999--1014.
+
+\bibitem[祁玉萍 et al.(2013)]{qiyuping2013}
+祁玉萍, 李闽峰, 李圣强, et al, 2013.
+\newblock
+  地震震源机制波形自动反演系统的研究现状与展望[J].
+\newblock 地震, 33(1):74--85.
+
+\bibitem[Haskell(1964)]{Haskell1964}
+Haskell N, 1964.
+\newblock Total energy and energy spectral density of elastic wave radiation
+  from propagating faults[J].
+\newblock Bulletin of the Seismological Society of America, 54(6A):1811--1841.
+
+\bibitem[Herrmann(1979)]{Herrmann1979}
+Herrmann R~B, 1979.
+\newblock SH-wave generation by dislocation sources—a numerical study[J].
+\newblock Bulletin of the Seismological Society of America, 69(1):1--15.
+
+\bibitem[Wang and Herrmann(1980)]{Wang1980}
+Wang C, Herrmann R, 1980.
+\newblock A numerical study of P-, SV-, and SH-wave generation in a plane
+  layered medium[J].
+\newblock Bulletin of the Seismological Society of America, 70(4):1015--1036.
+
+\bibitem[Walter(1993)]{Walter1993}
+Walter W~R, 1993.
+\newblock Source parameters of the June 29, 1992 Little Skull Mountain
+  earthquake from complete regional waveforms at a single station[J].
+\newblock Geophysical research letters, 20(5):403--406.
+
+\bibitem[Ritsema and Lay(1993)]{Ritsema1993}
+Ritsema J, Lay T, 1993.
+\newblock Rapid source mechanism determination of large (Mw≥ 5) earthquakes
+  in the western United States[J].
+\newblock Geophysical research letters, 20(15):1611--1614.
+
+\bibitem[Zhao and Helmberger(1994)]{Zhao1994}
+Zhao L~S, Helmberger D~V, 1994.
+\newblock Source estimation from broadband regional seismograms[J].
+\newblock Bulletin of the Seismological Society of America, 84(1):91--104.
+
+\bibitem[N{\'a}b{\v{e}}lek and Xia(1995)]{Nabvelek1995}
+N{\'a}b{\v{e}}lek J, Xia G, 1995.
+\newblock Moment-tensor analysis using regional data: Application to the 25
+  March, 1993, Scotts Mills, Oregon, Earthquake[J].
+\newblock Geophysical research letters, 22(1):13--16.
+
+\bibitem[Zhu and Helmberger(1996)]{Zhu1996}
+Zhu L, Helmberger D~V, 1996.
+\newblock Advancement in source estimation techniques using broadband regional
+  seismograms[J].
+\newblock Bulletin of the Seismological Society of America, 86(5):1634--1641.
+
+\bibitem[Tan et al.(2006)]{Tan2006}
+Tan Y, Zhu L, Helmberger D~V, et al, 2006.
+\newblock Locating and modeling regional earthquakes with two stations[J].
+\newblock Journal of Geophysical Research: Solid Earth (1978--2012),
   111(B1):B01306.
 
-\bibitem[\protect\astroncite{Wald}{2005}]{Wald2005}
-Wald, D.~J.\leavevmode\nopagebreak\newline 2005.
-\newblock {\em ShakeMap manual: technical manual, user's guide, and software
-  guide}.
-\newblock US: US Geological Survey.
+\bibitem[Herrmann(1989)]{Herrmann1989}
+Herrmann R~B,
+\newblock 1989, Missouri: Saint Louis University.
 
-\bibitem[\protect\astroncite{Walter}{1993}]{Walter1993}
-Walter, W.~R.\leavevmode\nopagebreak\newline 1993.
-\newblock Source parameters of the june 29, 1992 little skull mountain
-  earthquake from complete regional waveforms at a single station.
-\newblock {\em Geophysical research letters}, 20(5):403--406.
+\bibitem[Luo et al.(2015)]{Luo2015}
+Luo Y, Zhao L, Zeng X, et al, 2015.
+\newblock Focal mechanisms of the Lushan earthquake sequence and spatial
+  variation of the stress field[J].
+\newblock Science China Earth Sciences, 58(7):1148--1158.
 
-\bibitem[\protect\astroncite{Wang and Herrmann}{1980}]{Wang1980}
-Wang, C. and R.~Herrmann\leavevmode\nopagebreak\newline 1980.
-\newblock A numerical study of p-, sv-, and sh-wave generation in a plane
-  layered medium.
-\newblock {\em Bulletin of the Seismological Society of America},
-  70(4):1015--1036.
+\bibitem[D’Amico et al.(2014)]{DAmico2014}
+D’Amico S, Cammarata L, Cangemi M, et al, 2014.
+\newblock Seismic moment tensors and regional stress in the area of the
+  December 2013--January 2014, Matese earthquake sequence (Italy)[J].
+\newblock Journal of Geodynamics, 82:118--124.
 
-\bibitem[\protect\astroncite{Wang et~al.}{2010}]{Wang2010}
-Wang, Z., D.~Zhao, and J.~Wang\leavevmode\nopagebreak\newline 2010.
+\bibitem[Duputel et al.(2012)]{Duputel2012}
+Duputel Z, Rivera L, Fukahata Y, et al, 2012.
+\newblock Uncertainty estimations for seismic source inversions[J].
+\newblock Geophysical Journal International, 190(2):1243--1256.
+
+\bibitem[郑建常 et al.(2015)]{zhenjianchang2015}
+郑建常, 林眉, 王鹏, et al, 2015.
+\newblock
+  CAP方法反演震源机制的误差分析:以胶东半岛两次显著中等地震为例[J].
+\newblock 地球物理学报, 58:453--462.
+
+\bibitem[Hardebeck and Shearer(2002)]{Hardebeck2002}
+Hardebeck J~L, Shearer P~M, 2002.
+\newblock A new method for determining first-motion focal mechanisms[J].
+\newblock Bulletin of the Seismological Society of America, 92(6):2264--2276.
+
+\bibitem[Efron(1979)]{Efron1979}
+Efron B, 1979.
+\newblock Bootstrap methods: another look at the jackknife[J].
+\newblock The annals of Statistics, 7:1--26.
+
+\bibitem[程万正 et al.(2006)]{chengwanzheng2006}
+程万正, 阮祥, 张永久, 2006.
+\newblock 川滇次级地块震源机制解类型与一致性参数[J].
+\newblock 地震学报, 28(6):561--573.
+
+\bibitem[Silver and Jordan(1982)]{Silver1982}
+Silver P~G, Jordan T~H, 1982.
+\newblock Optimal estimation of scalar seismic moment[J].
+\newblock Geophysical Journal International, 70(3):755--787.
+
+\bibitem[Jost and Herrmann(1989)]{Jost1989}
+Jost M~u, Herrmann R, 1989.
+\newblock A student’s guide to and review of moment tensors[J].
+\newblock Seismological Research Letters, 60(2):37--57.
+
+\bibitem[Kikuchi and Kanamori(1991)]{Kikuchi1991}
+Kikuchi M, Kanamori H, 1991.
+\newblock Inversion of complex body waves—III[J].
+\newblock Bulletin of the Seismological Society of America, 81:2335--2350.
+
+\bibitem[Aki and Richards(1980)]{Aki1980}
+Aki K, Richards P~G,
+\newblock 1980, San Francisco: Freeman.
+
+\bibitem[Aki(1966)]{Aki1966}
+Aki K, 1966.
+\newblock Generation and Propagation of G Waves from the Niigata Earthquake of
+  June 16, 1964. : Part 2. Estimation of earthquake moment, released energy,
+  and stress-strain drop from the G wave spectrum.[J].
+\newblock 東京大学地震研究所彙報, 44:73--88.
+
+\bibitem[Ben-Menahem(1963)]{Ben-Menahem1963}
+Ben-Menahem A, 1963.
+\newblock Radiation Pattern of Rayleigh Waves from a Fault of Arbitrary Dip and
+  Direction of Motion in a Homogeneous Medium[J].
+\newblock Bulletin of the Seismological Society of America, 53(3):125--148.
+
+\bibitem[崔鹏 et al.(2013)]{cuipeng2013}
+崔鹏, 陈晓清, 张建强, et al, 2013.
+\newblock
+  “4·20”芦山7.0级地震次生山地灾害活动特征与趋势[J].
+\newblock 山地学报, 31(3):257--265.
+
+\bibitem[陈晓清 et al.(2013)]{chenxiaoqing2013}
+陈晓清, 崔鹏, 游勇, et al, 2013.
+\newblock 4·20芦山地震次生山地灾害与减灾对策[J].
+\newblock 地学前缘, 20(3):29--34.
+
+\bibitem[郑勇 et al.(2013)]{zhenyong2013}
+郑勇, 葛粲, 谢祖军, et al, 2013.
+\newblock
+  芦山与汶川地震震区地壳上地幔结构及深部孕震环境[J].
+\newblock 中国科学: 地球科学, 43(006):1027--1037.
+
+\bibitem[高原 et al.(2013)]{gaoyuan2013}
+高原, 王琼, 赵博, et al, 2013.
+\newblock
+  龙门山断裂带中南段的一个破裂空段-芦山地震的震后效应[J].
+\newblock 中国科学: D 辑, 43(6):1038--1046.
+
+\bibitem[谢祖军 et al.(2013)]{xiezujun2013}
+谢祖军, 金笔凯, 郑勇, et al, 2013.
+\newblock 近远震波形反演 2013 年芦山地震震源参数[J].
+\newblock 中国科学: 地球科学, 43(6):1010.
+
+\bibitem[Kennett et al.(1995)]{Kennett1995}
+Kennett B, Engdahl E, Buland R, 1995.
+\newblock Constraints on seismic velocities in the Earth from traveltimes[J].
+\newblock Geophysical Journal International, 122(1):108--124.
+
+\bibitem[曾祥方 et al.(2013)]{zengxiangfang2013}
+曾祥方, 罗艳, 韩立波, et al, 2013.
+\newblock 2013 年 4 月 20 日四川芦山 M\_S7. 0 地震:
+  一个高角度逆冲地震[J].
+\newblock 地球物理学报, 56(4):1418--1424.
+
+\bibitem[刘杰 et al.(2013)]{liujie2013}
+刘杰, 易桂喜, 张致伟, et al, 2013.
+\newblock 2013 年 4 月 20 日四川芦山 M7. 0 级地震介绍[J].
+\newblock 地球物理学报, 56(4):1404--1407.
+
+\bibitem[吕坚 et al.(2013)]{lujian2013}
+吕坚, 王晓山, 苏金蓉, et al, 2013.
+\newblock 芦山 7.0 级地震序列的震源位置与震源机制解特征[J].
+\newblock 地球物理学报, 56(5):1753--1763.
+
+\bibitem[Herrmann and Wang(1985)]{Herrmann1985}
+Herrmann R, Wang C, 1985.
+\newblock A comparison of synthetic seismograms[J].
+\newblock Bulletin of the Seismological Society of America, 75(1):41--56.
+
+\bibitem[房立华 et al.(2013)]{fanglihua2013}
+房立华, 吴建平, 王未来, et al, 2013.
+\newblock 四川芦山 Ms7. 0 级地震及其余震序列重定位[J].
+\newblock 科学通报, 20:004.
+
+\bibitem[Zhang et al.(2013)]{Zhang2013}
+Zhang Z, Deng Y, Chen L, et al, 2013.
+\newblock Seismic structure and rheology of the crust under mainland China[J].
+\newblock Gondwana Research, 23(4):1455--1483.
+
+\bibitem[邓起东 et al.(1994)]{dengqidong1994}
+邓起东, 陈社发, 赵小麟, et al, 1994.
+\newblock 龙门山及其邻区的构造和地震活动及动力学[J].
+\newblock 地震地质, 16(4):389--403.
+
+\bibitem[李智武 et al.(2008)]{lizhiwu2008}
+李智武, 刘树根, 陈洪德, et al, 2008.
+\newblock
+  龙门山冲断带分段-分带性构造格局及其差异变形特征[J].
+\newblock 成都理工大学学报: 自然科学版, 35(4):440--454.
+
+\bibitem[Jia et al.(2006)]{Jia2006}
+Jia D, Wei G, Chen Z, et al, 2006.
+\newblock Longmen Shan fold-thrust belt and its relation to the western Sichuan
+  Basin in central China: New insights from hydrocarbon exploration[J].
+\newblock Aapg Bulletin, 90(9):1425--1447.
+
+\bibitem[Arne et al.(1997)]{Arne1997}
+Arne D, Worley B, Wilson C, et al, 1997.
+\newblock Differential exhumation in response to episodic thrusting along the
+  eastern margin of the Tibetan Plateau[J].
+\newblock Tectonophysics, 280(3):239--256.
+
+\bibitem[郭正吾 et al.(1996)]{guozhengwu1996}
+郭正吾, 邓康龄, 韩永辉, et al,
+\newblock 1996, 北京: 北京: 地质出版社.
+
+\bibitem[邓康龄(2007)]{dengkangling2007}
+邓康龄, 2007.
+\newblock 龙门山构造带印支期构造递进变形与变形时序[J].
+\newblock 石油与天然气地质, 28(4):485--490.
+
+\bibitem[Wang et al.(2010)]{Wang2010}
+Wang Z, Zhao D, Wang J, 2010.
 \newblock Deep structure and seismogenesis of the north-south seismic zone in
-  southwest china.
-\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  southwest China[J].
+\newblock Journal of Geophysical Research: Solid Earth (1978--2012),
   115(B12):B12334.
 
-\bibitem[\protect\astroncite{Zhang et~al.}{2013}]{Zhang2013}
-Zhang, Z., Y.~Deng, L.~Chen, J.~Wu, J.~Teng, and
-  G.~Panza\leavevmode\nopagebreak\newline 2013.
-\newblock Seismic structure and rheology of the crust under mainland china.
-\newblock {\em Gondwana Research}, 23(4):1455--1483.
+\bibitem[张忠杰 et al.(2009)]{zhangzhongjie2009}
+张忠杰, 陈赟, 田小波, 2009.
+\newblock 青藏高原东缘地壳上地幔结构及其动力学意义[J].
+\newblock 地质科学, 44(4):1136--1150.
 
-\bibitem[\protect\astroncite{Zhang et~al.}{2011}]{Zhang2011}
-Zhang, Z., Y.~Deng, J.~Teng, C.~Wang, R.~Gao, Y.~Chen, and
-  W.~Fan\leavevmode\nopagebreak\newline 2011.
-\newblock An overview of the crustal structure of the tibetan plateau after 35
-  years of deep seismic soundings.
-\newblock {\em Journal of Asian Earth Sciences}, 40(4):977--989.
+\bibitem[Zhang et al.(2011)]{Zhang2011}
+Zhang Z, Deng Y, Teng J, et al, 2011.
+\newblock An overview of the crustal structure of the Tibetan plateau after 35
+  years of deep seismic soundings[J].
+\newblock Journal of Asian Earth Sciences, 40(4):977--989.
 
-\bibitem[\protect\astroncite{Zhao and Helmberger}{1994}]{Zhao1994}
-Zhao, L.-S. and D.~V. Helmberger\leavevmode\nopagebreak\newline 1994.
-\newblock Source estimation from broadband regional seismograms.
-\newblock {\em Bulletin of the Seismological Society of America},
-  84(1):91--104.
+\bibitem[雷建设 et al.(2009)]{leijianshe2009}
+雷建设, 赵大鹏, 苏金蓉, et al, 2009.
+\newblock 龙门山断裂带地壳精细结构与汶川地震发震机理[J].
+\newblock 地球物理学报, 52(2):339--345.
 
-\bibitem[\protect\astroncite{Zhu and Helmberger}{1996}]{Zhu1996}
-Zhu, L. and D.~V. Helmberger\leavevmode\nopagebreak\newline 1996.
-\newblock Advancement in source estimation techniques using broadband regional
-  seismograms.
-\newblock {\em Bulletin of the Seismological Society of America},
-  86(5):1634--1641.
+\bibitem[邓起东 et al.(2002)]{dengqidong2002}
+邓起东, 张培震, et al, 2002.
+\newblock 中国活动构造基本特征[J].
+\newblock 中国科学: D 辑, 32(12):1020--1030.
 
-\bibitem[\protect\astroncite{Zielhuis and Nolet}{1994}]{Zielhuis1994}
-Zielhuis, A. and G.~Nolet\leavevmode\nopagebreak\newline 1994.
-\newblock Shear-wave velocity variations in the upper mantle beneath central
-  europe.
-\newblock {\em Geophysical Journal International}, 117(3):695--715.
+\bibitem[徐锡伟 et al.(2013)]{xuxiwei2013}
+徐锡伟, 陈桂华, 于贵华, et al, 2013.
+\newblock 芦山地震发震构造及其与汶川地震关系讨论 [J][J].
+\newblock 地学前缘, 20(3):11--20.
 
-\bibitem[\protect\astroncite{刘杰 et~al.}{2013}]{liujie2013}
-刘杰, 易桂喜, 张致伟, 官致君, 阮祥, 龙锋, and
-  杜方\leavevmode\nopagebreak\newline 2013.
-\newblock 2013 年 4 月 20 日四川芦山 m7. 0 级地震介绍.
-\newblock {\em 地球物理学报}, 56(4):1404--1407.
+\bibitem[唐荣昌 et al.(1991)]{tangchangrong1991}
+唐荣昌, 文德华, 黄祖智, et al, 1991.
+\newblock 松潘-龙门山地区主要活动断裂带第四纪活动特征[J].
+\newblock 中国地震, 7(3):64--71.
 
-\bibitem[\protect\astroncite{吕坚 et~al.}{2013}]{lujian2013}
-吕坚, 王晓山, 苏金蓉, 潘林山, 李正, 尹利文, 曾新福, and
-  邓辉\leavevmode\nopagebreak\newline 2013.
-\newblock 芦山 7.0 级地震序列的震源位置与震源机制解特征.
-\newblock {\em 地球物理学报}, 56(5):1753--1763.
+\bibitem[李勇(2006)]{liyong2006}
+李勇,
+\newblock 2006, 北京: 地质出版社.
 
-\bibitem[\protect\astroncite{唐荣昌 et~al.}{1991}]{tangchangrong1991}
-唐荣昌, 文德华, 黄祖智, et~al.\leavevmode\nopagebreak\newline 1991.
-\newblock 松潘-龙门山地区主要活动断裂带第四纪活动特征.
-\newblock {\em 中国地震}, 7(3):64--71.
+\bibitem[Densmore et al.(2007)]{Densmore2007}
+Densmore A~L, Ellis M~A, Li Y, et al, 2007.
+\newblock Active tectonics of the Beichuan and Pengguan faults at the eastern
+  margin of the Tibetan Plateau[J].
+\newblock Tectonics, 26(4):TC4005.
 
-\bibitem[\protect\astroncite{孟文 et~al.}{2013}]{mengwen2013}
-孟文, 陈群策, 吴满路, 李国岐, 秦向辉, and
-  丰成君\leavevmode\nopagebreak\newline 2013.
-\newblock 龙门山断裂带现今构造应力场特征及分段性研究.
-\newblock {\em 地球物理学进展}, 28(3):1150--1160.
+\bibitem[陈国光 et al.(2007)]{chenguoguang2007}
+陈国光, 计凤桔, 周荣军, et al, 2007.
+\newblock 龙门山断裂带晚第四纪活动性分段的初步研究[J].
+\newblock 地震地质, 29(3):657--673.
 
-\bibitem[\protect\astroncite{崔鹏 et~al.}{2013}]{cuipeng2013}
-崔鹏, 陈晓清, 张建强, 杨宗佶, 游勇, 范建容, 苏凤环,
-  孔应德, and 朱兴华\leavevmode\nopagebreak\newline 2013.
-\newblock “4·20”芦山7.0级地震次生山地灾害活动特征与趋势.
-\newblock {\em 山地学报}, 31(3):257--265.
+\bibitem[张广伟(2013)]{zhangguangwei2013}
+张广伟 �, 2013.
+\newblock 四川芦山 7.0 级强震及其余震序列重定位[J].
+\newblock 地球物理学报, 56(5):1764--1771.
 
-\bibitem[\protect\astroncite{张广伟}{2013}]{zhangguangwei2013}
-张广伟, �.\leavevmode\nopagebreak\newline 2013.
-\newblock 四川芦山 7.0 级强震及其余震序列重定位.
-\newblock {\em 地球物理学报}, 56(5):1764--1771.
+\bibitem[孟文 et al.(2013)]{mengwen2013}
+孟文, 陈群策, 吴满路, et al, 2013.
+\newblock 龙门山断裂带现今构造应力场特征及分段性研究[J].
+\newblock 地球物理学进展, 28(3):1150--1160.
 
-\bibitem[\protect\astroncite{张忠杰 et~al.}{2009}]{zhangzhongjie2009}
-张忠杰, 陈赟, and 田小波\leavevmode\nopagebreak\newline 2009.
-\newblock 青藏高原东缘地壳上地幔结构及其动力学意义.
-\newblock {\em 地质科学}, 44(4):1136--1150.
+\bibitem[Royden et al.(1997)]{Royden1997}
+Royden L~H, Burchfiel B~C, King R~W, et al, 1997.
+\newblock Surface deformation and lower crustal flow in eastern Tibet[J].
+\newblock science, 276(5313):788--790.
 
-\bibitem[\protect\astroncite{徐锡伟 et~al.}{2013}]{xuxiwei2013}
-徐锡伟, 陈桂华, 于贵华, 程佳, 谭锡斌, 朱艾斓, and
-  闻学泽\leavevmode\nopagebreak\newline 2013.
-\newblock 芦山地震发震构造及其与汶川地震关系讨论 [j].
-\newblock {\em 地学前缘}, 20(3):11--20.
+\bibitem[Clark and Royden(2000)]{Clark2000}
+Clark M~K, Royden L~H, 2000.
+\newblock Topographic ooze: Building the eastern margin of Tibet by lower
+  crustal flow[J].
+\newblock Geology, 28(8):703--706.
 
-\bibitem[\protect\astroncite{房立华 et~al.}{2013}]{fanglihua2013}
-房立华, 吴建平, 王未来, 吕作勇, 王长在, 杨婷, and
-  蔡妍\leavevmode\nopagebreak\newline 2013.
-\newblock 四川芦山 ms7. 0 级地震及其余震序列重定位.
-\newblock {\em 科学通报}, 20:004.
+\bibitem[Meng et al.(2005)]{Meng2005}
+Meng Q~R, Wang E, Hu J~M, 2005.
+\newblock Mesozoic sedimentary evolution of the northwest Sichuan basin:
+  Implication for continued clockwise rotation of the South China block[J].
+\newblock Geological Society of America Bulletin, 117(3-4):396--410.
 
-\bibitem[\protect\astroncite{曾祥方 et~al.}{2013}]{zengxiangfang2013}
-曾祥方, 罗艳, 韩立波, and 石耀霖\leavevmode\nopagebreak\newline
-  2013.
-\newblock 2013 年 4 月 20 日四川芦山 m\_s7. 0 地震:
-  一个高角度逆冲地震.
-\newblock {\em 地球物理学报}, 56(4):1418--1424.
+\bibitem[Burchfiel et al.(1995)]{Burchfiel1995}
+Burchfiel B, Zhiliang C, Yupinc L, et al, 1995.
+\newblock Tectonics of the Longmen Shan and adjacent regions, central China[J].
+\newblock International Geology Review, 37(8):661--735.
 
-\bibitem[\protect\astroncite{李勇}{2006}]{liyong2006}
-李勇\leavevmode\nopagebreak\newline 2006.
-\newblock {\em 青藏高原东缘大陆动力学过程与地质响应}.
-\newblock 北京: 地质出版社.
+\bibitem[Harris(2007)]{Harris2007}
+Harris N, 2007.
+\newblock Channel flow and the Himalayan--Tibetan orogen: a critical review[J].
+\newblock Journal of the Geological Society, 164(3):511--523.
 
-\bibitem[\protect\astroncite{李智武 et~al.}{2008}]{lizhiwu2008}
-李智武, 刘树根, 陈洪德, 刘顺, 郭兵, and
-  田小彬\leavevmode\nopagebreak\newline 2008.
+\bibitem[楼海 et al.(2010)]{louhai2010}
+楼海, 王椿镛, 姚志祥, et al, 2010.
+\newblock 龙门山断裂带深部构造和物性分布的分段特征[J].
+\newblock 地学前缘, 17(5):128--141.
+
+\bibitem[秦向辉 et al.(2013)]{qinxianghui2013}
+秦向辉, 陈群策, 谭成轩, et al, 2013.
 \newblock
-  龙门山冲断带分段-分带性构造格局及其差异变形特征.
-\newblock {\em 成都理工大学学报: 自然科学版}, 35(4):440--454.
+  龙门山断裂带西南段现今地应力状态与地震危险性分析[J].
+\newblock 岩石力学与工程学报, 1:2870--2876.
 
-\bibitem[\protect\astroncite{楼海 et~al.}{2010}]{louhai2010}
-楼海, 王椿镛, 姚志祥, 李红谊, 苏伟, and
-  吕智勇\leavevmode\nopagebreak\newline 2010.
-\newblock 龙门山断裂带深部构造和物性分布的分段特征.
-\newblock {\em 地学前缘}, 17(5):128--141.
+\bibitem[Gao et al.(2011)]{Gao2011}
+Gao Y, Wu J, Fukao Y, et al, 2011.
+\newblock Shear wave splitting in the crust in North China: stress, faults and
+  tectonic implications[J].
+\newblock Geophysical Journal International, 187(2):642--654.
 
-\bibitem[\protect\astroncite{祁玉萍 et~al.}{2013}]{qiyuping2013}
-祁玉萍, 李闽峰, 李圣强, 王斌, and
-  刘桂平\leavevmode\nopagebreak\newline 2013.
-\newblock 地震震源机制波形自动反演系统的研究现状与展望.
-\newblock {\em 地震}, 33(1):74--85.
+\bibitem[Gao et al.(2012)]{Gao2012}
+Gao Y, Shi Y, Wu J, et al, 2012.
+\newblock Shear-wave splitting in the crust: Regional compressive stress from
+  polarizations of fast shear-waves[J].
+\newblock Earthquake Science, 25(1):35--45.
 
-\bibitem[\protect\astroncite{秦向辉 et~al.}{2013}]{qinxianghui2013}
-秦向辉, 陈群策, 谭成轩, 安其美, 吴满路, and
-  丰成君\leavevmode\nopagebreak\newline 2013.
-\newblock
-  龙门山断裂带西南段现今地应力状态与地震危险性分析.
-\newblock {\em 岩石力学与工程学报}, 1:2870--2876.
-
-\bibitem[\protect\astroncite{程万正 et~al.}{2006}]{chengwanzheng2006}
-程万正, 阮祥, and 张永久\leavevmode\nopagebreak\newline 2006.
-\newblock 川滇次级地块震源机制解类型与一致性参数.
-\newblock {\em 地震学报}, 28(6):561--573.
-
-\bibitem[\protect\astroncite{谢祖军 et~al.}{2013}]{xiezujun2013}
-谢祖军, 金笔凯, 郑勇, 葛粲, 熊熊, 熊诚, and
-  许厚泽\leavevmode\nopagebreak\newline 2013.
-\newblock 近远震波形反演 2013 年芦山地震震源参数.
-\newblock {\em 中国科学: 地球科学}, 43(6):1010.
-
-\bibitem[\protect\astroncite{赵博 et~al.}{2013}]{zhaobo2013}
-赵博, 高原, 黄志斌, 赵旭, and 李大虎\leavevmode\nopagebreak\newline
-  2013.
-\newblock 四川芦山 ms7. o 地震余震序列双差定位,
-  震源机制及应力场反演.
-\newblock {\em 地球物理学报}, 56(10):3385--3395.
-
-\bibitem[\protect\astroncite{邓康龄}{2007}]{dengkangling2007}
-邓康龄\leavevmode\nopagebreak\newline 2007.
-\newblock 龙门山构造带印支期构造递进变形与变形时序.
-\newblock {\em 石油与天然气地质}, 28(4):485--490.
-
-\bibitem[\protect\astroncite{邓起东 et~al.}{2002}]{dengqidong2002}
-邓起东, 张培震, et~al.\leavevmode\nopagebreak\newline 2002.
-\newblock 中国活动构造基本特征.
-\newblock {\em 中国科学: D 辑}, 32(12):1020--1030.
-
-\bibitem[\protect\astroncite{邓起东 et~al.}{1994}]{dengqidong1994}
-邓起东, 陈社发, 赵小麟, et~al.\leavevmode\nopagebreak\newline 1994.
-\newblock 龙门山及其邻区的构造和地震活动及动力学.
-\newblock {\em 地震地质}, 16(4):389--403.
-
-\bibitem[\protect\astroncite{郑勇 et~al.}{2013}]{zhenyong2013}
-郑勇, 葛粲, 谢祖军, Y.~YingJie, 熊熊, and
-  许厚泽\leavevmode\nopagebreak\newline 2013.
-\newblock
-  芦山与汶川地震震区地壳上地幔结构及深部孕震环境.
-\newblock {\em 中国科学: 地球科学}, 43(006):1027--1037.
-
-\bibitem[\protect\astroncite{郑建常 et~al.}{2015}]{zhenjianchang2015}
-郑建常, 林眉, 王鹏, and 徐长朋\leavevmode\nopagebreak\newline 2015.
-\newblock
-  Cap方法反演震源机制的误差分析:以胶东半岛两次显著中等地震为例.
-\newblock {\em 地球物理学报}, 58:453--462.
-
-\bibitem[\protect\astroncite{郭正吾 et~al.}{1996}]{guozhengwu1996}
-郭正吾, 邓康龄, 韩永辉, et~al.\leavevmode\nopagebreak\newline 1996.
-\newblock {\em 四川盆地形成与演化}.
-\newblock 北京: 北京: 地质出版社.
-
-\bibitem[\protect\astroncite{陈国光 et~al.}{2007}]{chenguoguang2007}
-陈国光, 计凤桔, 周荣军, 徐杰, and
-  周本刚\leavevmode\nopagebreak\newline 2007.
-\newblock 龙门山断裂带晚第四纪活动性分段的初步研究.
-\newblock {\em 地震地质}, 29(3):657--673.
-
-\bibitem[\protect\astroncite{陈晓清 et~al.}{2013}]{chenxiaoqing2013}
-陈晓清, 崔鹏, 游勇, 杨宗佶, and
-  孔应德\leavevmode\nopagebreak\newline 2013.
-\newblock 4·20芦山地震次生山地灾害与减灾对策.
-\newblock {\em 地学前缘}, 20(3):29--34.
-
-\bibitem[\protect\astroncite{雷建设 et~al.}{2009}]{leijianshe2009}
-雷建设, 赵大鹏, 苏金蓉, 张光伟, and
-  李凤\leavevmode\nopagebreak\newline 2009.
-\newblock 龙门山断裂带地壳精细结构与汶川地震发震机理.
-\newblock {\em 地球物理学报}, 52(2):339--345.
-
-\bibitem[\protect\astroncite{高原 et~al.}{2013}]{gaoyuan2013}
-高原, 王琼, 赵博, and 石玉涛\leavevmode\nopagebreak\newline 2013.
-\newblock
-  龙门山断裂带中南段的一个破裂空段-芦山地震的震后效应.
-\newblock {\em 中国科学: D 辑}, 43(6):1038--1046.
+\bibitem[赵博 et al.(2013)]{zhaobo2013}
+赵博, 高原, 黄志斌, et al, 2013.
+\newblock 四川芦山 Ms7. O 地震余震序列双差定位,
+  震源机制及应力场反演[J].
+\newblock 地球物理学报, 56(10):3385--3395.
 
 \end{thebibliography}

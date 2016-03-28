@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  28 MAR 2016 17:14
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  28 MAR 2016 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2053,15 +2053,15 @@ File: figures/whu.eps Graphic file (type eps)
 
  (./includefile/ch2.tex
 第二章
-File: figures/fig201.png Graphic file (type QTm)
-<use  "figures/fig201.png" > [6
+File: figures/fig2_01.png Graphic file (type QTm)
+<use  "figures/fig2_01.png" > [6
 
 
 
 ] [7] [8] [9] [10] [11] [12]
-File: figures/fig202.pdf Graphic file (type QTm)
+File: figures/fig2_02.pdf Graphic file (type QTm)
 
-<use  "figures/fig202.pdf" >
+<use  "figures/fig2_02.pdf" >
 Overfull \hbox (3.3694pt too wide) in paragraph at lines 255--256
  [][] 
  []
@@ -2087,26 +2087,26 @@ Overfull \hbox (17.4874pt too wide) in paragraph at lines 270--59
 
  (./includefile/ch4.tex
 第四章
-File: figures/fig401.pdf Graphic file (type QTm)
-<use  "figures/fig401.pdf" > [17
+File: figures/fig4_01.pdf Graphic file (type QTm)
+<use  "figures/fig4_01.pdf" > [17
 
 
 
 ] [18]
-File: figures/fig402.pdf Graphic file (type QTm)
- <use  "figures/fig402.pdf" >
-File: figures/fig403.pdf Graphic file (type QTm)
+File: figures/fig4_02.pdf Graphic file (type QTm)
+ <use  "figures/fig4_02.pdf" > [19]
+File: figures/fig4_03.pdf Graphic file (type QTm)
 
-<use  "figures/fig403.pdf" > [19]
-File: figures/fig404.pdf Graphic file (type QTm)
- <use  "figures/fig404.pdf" >
+<use  "figures/fig4_03.pdf" >
+File: figures/fig4_04.pdf Graphic file (type QTm)
+ <use  "figures/fig4_04.pdf" >
 
-LaTeX Warning: Float too large for page by 27.28847pt on input line 55.
+LaTeX Warning: Float too large for page by 27.28847pt on input line 69.
 
-[20] [21]
+[20]
 Missing character: There is no  in font [lmroman12-regular]:mapping=tex-text!
-File: figures/fig405.pdf Graphic file (type QTm)
- <use  "figures/fig405.pdf" > [22] [23]) [24]
+File: figures/fig4_05.pdf Graphic file (type QTm)
+ <use  "figures/fig4_05.pdf" > [21] [22] [23]) [24]
 \openout2 = `includefile/ch5.aux'.
 
  (./includefile/ch5.tex
@@ -2119,34 +2119,21 @@ File: figures/fig405.pdf Graphic file (type QTm)
 
 
 
-] [27] [28] [29]
+]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [30]
-Underfull \hbox (badness 1117) in paragraph at lines 335--339
-\EU1/lmr/m/n/12.045 2013.  \EU1/AdobeSongStd-Light(0)/m/n/12.045 芦 山 \EU1/lmr/m
-/n/12.045 7.0 \EU1/AdobeSongStd-Light(0)/m/n/12.045 级 地 震 序 列 的 震 源 位 置 与 震 源 机
- 制 解 特 征\EU1/lmr/m/n/12.045 .  \EU1/AdobeSongStd-Light(0)/m/it/12.045 地 球 物 理 学
- 报\EU1/lmr/m/n/12.045 ,
- []
-
-[31]
-Underfull \hbox (badness 1515) in paragraph at lines 346--350
-\EU1/lmr/m/n/12.045 2013.  \EU1/AdobeSongStd-Light(0)/m/n/12.045 龙 门 山 断 裂 带 现 
-今 构 造 应 力 场 特 征 及 分 段 性 研 究\EU1/lmr/m/n/12.045 .  \EU1/AdobeSongStd-Light(0)/m/
-it/12.045 地 球 物 理 学 进 展\EU1/lmr/m/n/12.045 ,
- []
-
-Invalid UTF-8 byte or sequence at line 358 replaced by U+FFFD.
+ [27] [28] [29] [30]
+Invalid UTF-8 byte or sequence at line 389 replaced by U+FFFD.
 Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text!
-[32] [33]) [34]
+ [31]) [32]
 \openout2 = `includefile/backmatter.aux'.
 
- (./includefile/backmatter.tex [35
+
+(./includefile/backmatter.tex [33
 
 
 
 
-]) [36
+]) [34
 
 ]
 \tf@thm=\write5
@@ -2163,12 +2150,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 32123 strings out of 493706
- 620415 string characters out of 6145768
- 658781 words of memory out of 5000000
+ 32120 strings out of 493706
+ 620268 string characters out of 6145768
+ 661831 words of memory out of 5000000
  35015 multiletter control sequences out of 15000+600000
- 14060 words of font info for 98 fonts, out of 8000000 for 9000
+ 14044 words of font info for 96 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 71i,12n,79p,10418b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,12n,79p,10418b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (43 pages).
+Output written on paper.pdf (41 pages).
