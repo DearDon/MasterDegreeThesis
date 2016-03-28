@@ -26,8 +26,8 @@
 \contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}案例选取}{17}{section.4.1}
 \contentsline {section}{\numberline {4.2}数据处理}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}结果分析}{18}{section.4.3}
-\contentsline {section}{\numberline {4.4}讨论和结论}{21}{section.4.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{27}{chapter.5}
-\contentsline {chapter}{参考文献}{28}{section*.11}
+\contentsline {section}{\numberline {4.3}结果分析}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}讨论和结论}{22}{section.4.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{25}{chapter.5}
+\contentsline {chapter}{参考文献}{26}{section*.11}
 \contentsline {chapter}{致谢}{35}{chapter*.13}

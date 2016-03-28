@@ -167,6 +167,8 @@
 
 %%%--- \upcite ----------------------------------------
 \newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}  %自定义新命令\upcite, 使参考文献引用以上标出现
+\newcommand{\zhcitep}[2]{\citeyearpar[#1等,][]{#2}}  %自定义新命令\zhcitep,代替\citep,使中文参考文献引用用“等”代替"et cl"
+\newcommand{\zhcitet}[2]{#1等\citeyearpar{#2}}  %自定义新命令\zhcitet,代替\citet,使中文参考文献引用用“等”代替"et cl"
 
 %%%%%%%--判断是否需要彩色链接-----------------------------
   \iflib
