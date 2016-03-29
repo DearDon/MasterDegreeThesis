@@ -8,7 +8,7 @@
 \begin{cnabstract}
 近年来，利用波形拟合方法反演震源机制的方法已经越来越普遍，在震源研究中获得了广泛应用。由于震源机制反演问题具有解空间较小，反演公式复杂等特点，一个比较合适的反演算法是格点搜索反演。在实际应用波形拟合研究震源机制的工作中，也证实了格点搜索反演在该问题的适用性。格点搜索算法是指将解空间按一定精度划分为大量网格，并将一个网格范围内无数连续的解当成同一个解，因而实现了解空间的数值离散化。解算时依次遍历所有格点，试探性利用格点值求解相应观测量的理论值，并比较理论值与观测值匹配度，求最优解的过程便是寻求具有最高匹配度的格点值。
 
-格点搜索算法仅需要计算待求模型到观测量的正演公式，因而有效避免了复杂的震源机制与波形的反算公式。在获得便利的同时，也伴随着一个很大缺陷——无法直接评价误差。正是由于格点搜索不需要求算观测数据到估计解的反推公式，因而也无法得到误差传播矩阵，导致不能在搜索到最优解的同时获得对解的误差评价。虽然误差评价的重要性不言而喻，但在实际工作中可以发现绝大部分震源机制的反演研究中均没有提及对震源机制的误差评估。为了获得一定的误差信息，本文基于统计学原理提出了一种方法。该方法通过利用观测数据的噪声信息重新随机生成噪声，并利用生成的噪声模拟大量的“观测”数据，对大量模拟数据进行多次反演，便得到了误差范围内的解集。通过对该解集进行统计分析，不仅可以得到震源机制各参数的误差信息，还能得到参数间的相关性信息。为了检验方法的有效性，文中设计了相关实验考查其误差范围的准确性。多次实验均发现本文所提方法准确地估计了波形数据的随机噪声“传播”给震源机制的误差。
+格点搜索算法仅需要计算待求模型到观测量的正演公式，因而有效避免了复杂的震源机制与波形的反算公式。在获得便利的同时，也伴随着一个很大缺陷——无法直接评价误差。正是由于格点搜索不需要求算观测数据到估计解的反推公式，因而也无法得到误差传播矩阵，导致不能在搜索到最优解的同时获得对解的误差评价。虽然误差评价的重要性不言而喻，但在实际工作中可以发现绝大部分震源机制的反演研究中均没有提及对震源机制的误差评估。为了获得一定的误差信息，本文基于概率统计原理提出了一种方法。该方法通过利用观测数据的噪声信息重新随机生成噪声，并利用生成的噪声模拟大量的“观测”数据，对大量模拟数据进行多次反演，便得到了误差范围内的解集。通过对该解集进行统计分析，不仅可以得到震源机制各参数的误差信息，还能得到参数间的相关性信息。为了检验方法的有效性，文中设计了相关实验考查其误差范围的准确性。多次实验均发现本文所提方法准确地估计了波形数据的随机噪声“传播”给震源机制的误差。
 
 由于震源机制的重要性，日常研究中经常需要进行震源机制反演。为避免重复工作，一些研究者将基于自己反演方案和算法完成的反演程序进行公开，供其它人使用，于是便有了各种开源的反演程序。在这些开源程序中，CAP(Cut And Paste)和CPS(Computer Programs in Seismology)两个程序都是受到广泛应用，且较为成熟的利用格点搜索算法反演震源机制的程序。两个程序分别体现了其作者的在反演中的观点，在CAP程序的相关文献中，详细介绍了反演时所使用的加权基于不同波形间振幅大小差异的考虑，而从CPS的源码中发现其加权主要考虑到不同波形数据信噪比优劣的不同。由于二者的权重均通过震中距估计，经分析发现其权重数值大小相互冲突。为了解决该矛盾并吸收两种加权方案中的有益观点，本文提出了综合考虑信噪比和振幅调节两方面的联合加权方案。此外，通过实例分析发现震中距难以描述信噪比或振幅的真实情况，并因此提出了用各波形数据信息直接计算信噪比或振幅，以精化权重的数值。经检验，联合定权确实能在一定程度上优化反演结果。
 
@@ -18,7 +18,7 @@
 \vspace{1em}\par\vfill
 
 %%%--------- 关键词 -------- %%%
-\cnkeywords{毕业论文, \LaTeX{}, 模板,}
+\cnkeywords{波形反演, 震源机制, 格点搜索, 误差评价}
 
 %%%%%%%%%%%%%%%%%%%%%%%
 
@@ -28,7 +28,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{enabstract}
-This thesis is a study on the theory of \dots.
+Recently, It's getting more and more common to inverse waveform for source mechanism. Grid search technique turn out to be a good fit for this inversion problem, as the possible source mechanisms are limited, besides to deduce the inversion equation seems quite different. This technique is approved to be effective on application to waveform inversion by experience in relative works. Grid search technique is a way to get the best solution from possible solutions: Firstly, we divide the solution space into grids with specified step-length for treating a unit grid as a single point, by which we have discretized the solution space. Secondly, It's time to iterate on every single grid to test how it fit to the problem based on a chosen evaluation standard(least squared criterion, etc.). Finally, after iteration, we certainly get a best solution among the solution space.
+
+By application of grid search technique, we avoid the process of deducing equation to the form of solution; however, it comes with a inherent disadvantage that error estimation isn't provided directly any more. Due to this disadvantage, most of research about getting mechanism by inversion of waveform just ignore the error estimation, although it's so essential to estimate your solution from observed data; observed data always comes along with unpredictable noise. To fix this problem,we come up with a new method based on probability theory: Firstly, we modeling the noise and learn how to produce similar noises as many as we need. Secondly, by adding the new noises and observed data up, we synthesize the simulated data with possible noise. Thirdly, we inverse the synthesis dependantly to get a reasonable biased mechanism. Then repeat synthesis and inversion, we get enough mount of possible mechanisms. By analysis of this solution set, we definitely get the error estimation of mechanism. In the end, we run some tests to testify the validity of the new error estimation method provided by this thesis.
+
+Source mechanism is a basic model for other research; so researchers need to get them from time to time. To avoid repeating work, some brilliant programs are provided by their owner so that anyone can use them freely and focus more on their research. CAP(Cut And Paste) and CPS(Computer Programs in Seismology) turn out to be two very popular programs Among all the open source software for getting mechanism. They both use grid search technique to fulfill the task, while they are some difference in weighting. CAP cares about the influence from amplitude difference in waveforms; CPS focus on the other side that data with better Signal-to-Noise Ratio should have priority. Furthermore, as CAP and CPS both calculate weighting by source-station distance, the outcome of relative weighting seems contradiction from the two programs. By analysis, we realize the two different weighting method are both reasonable. To fix the contradiction and take advantage of each, we manage to unite them in a way. Besides, we find the evaluation from source-station distance is rough and we refine it by estimating it from the very waveform itself instead of distance. In the end, we certify the improvement of united weighting by some experiments.
+
+In the first chapter we introduce the background of source mechanism, the history of researching mechanism and current state,especially the lack of error estimation and the possibility to improve weighting by combination of CAP and CPS. Then the purpose and main work is mentioned briefly. In chapter two, we present the deduction theorem of getting mechanism by inversing waveform, grid search technique and the method developed in this thesis to estimate error and improve weighting. In the third chapter, a series of experiments are designed to test the new method. Then in the forth chapter, we formally apply the whole theory to a real earthquake, which happened in 20th April, 2013, in Lushan county. After inversion, a discussion is given to verify the result. Finally, in the last chapter, we give a conclusion of all work and some experience, and hope it helps when some others are doing the similar research.
 
 
 
@@ -37,6 +43,6 @@ This thesis is a study on the theory of \dots.
 \vspace{1em}\par\vfill
 
 %%%------ 英文关键词 ------- %%%
-\enkeywords{\LaTeX{}, \dots}
+\enkeywords{waveform inversion, source mechanism, grid search technique, error estimation}
 
 
