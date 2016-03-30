@@ -24,17 +24,17 @@
 \contentsline {section}{\numberline {2.5}误差评定方法}{15}{section.2.5}
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}理论实验}{16}{chapter.3}
 \contentsline {section}{\numberline {3.1}实验设定说明}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}理论实验反演过程}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}误差评定检验}{17}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}不同噪声强度测试}{17}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}不同反演次数测试}{19}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}权重优化检验}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}不同加权反演测试}{20}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.2}权重优化检验}{16}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}不同加权反演测试}{16}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}误差评定检验}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}理论实验反演过程}{18}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}不同噪声强度测试}{18}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}不同反演次数测试}{21}{subsection.3.3.3}
 \contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}案例选取}{22}{section.4.1}
 \contentsline {section}{\numberline {4.2}数据处理}{23}{section.4.2}
 \contentsline {section}{\numberline {4.3}结果分析}{24}{section.4.3}
 \contentsline {section}{\numberline {4.4}讨论和结论}{26}{section.4.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{30}{chapter.5}
-\contentsline {chapter}{参考文献}{31}{section*.17}
-\contentsline {chapter}{致谢}{38}{chapter*.19}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{31}{chapter.5}
+\contentsline {chapter}{参考文献}{32}{section*.20}
+\contentsline {chapter}{致谢}{39}{chapter*.22}
