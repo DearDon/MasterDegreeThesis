@@ -36,5 +36,7 @@
 \contentsline {section}{\numberline {4.3}结果分析}{26}{section.4.3}
 \contentsline {section}{\numberline {4.4}讨论和结论}{28}{section.4.4}
 \contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}总结}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}展望}{34}{section.5.2}
 \contentsline {chapter}{参考文献}{35}{section*.22}
 \contentsline {chapter}{致谢}{42}{chapter*.24}
