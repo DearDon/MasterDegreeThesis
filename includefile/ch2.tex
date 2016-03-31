@@ -11,7 +11,7 @@
 \begin{figure}
 \centering
 %  \includegraphics[width=\textwidth]{fig2_01.png} 
-  \includegraphics{fig2_01.png} 
+  \includegraphics[scale=0.7]{fig2_01.pdf} 
   \caption{震源机制三个参数的具体意义}
   \label{fig2_01}
 \end{figure}
@@ -178,7 +178,7 @@ d=G_iM_i(i=1,2,...6)
 CAP与CPS方法计算波形的拟合度时使用了不同的目标函数，CAP方法先将理论波形与实测波形通过互相关运算进行时差调整，再计算调整后的波形间残差范数(L1或L2)\citep{Zhao1994}，该残差范数定为为最终的目标函数，CPS方法则直接将理论与实测波形的互相关函数作为目标函数。为了单独分析权重因素对反演的影响，对比CPS与CAP不同定权的差异，后文反演试验及讨论均基于CPS的目标函数方案。CPS方法中的互相关目标函数Fit如\refeq{eq2_12}定义。
 \begin{equation}
 \label{eq2_12}
-Fit=(\int_{Tb}^{Te}Y(t)G(t)dt)^2/(\int_{Tb}^{Te}Y(t)Y(t)dt*\int_{Tb}^{Te}G(t)G(t)dt)
+Fit=(\int_{Tb}^{Te}Y(t)G(t)dt)^2/(\int_{Tb}^{Te}Y(t)Y(t)dt\cdot\int_{Tb}^{Te}G(t)G(t)dt)
 \end{equation}
 
 在计算机中进行数值计算时使用\refeq{eq2_13}所示离散形式。

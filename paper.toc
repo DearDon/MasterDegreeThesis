@@ -11,8 +11,8 @@
 \contentsline {section}{\numberline {1.4}本文设定目标及方案}{4}{section.1.4}
 \contentsline {chapter}{\numberline {第二章\hspace {0.3em}}原理分析}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}震源基础概念}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}波形拟合反演}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}波形分解}{6}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}波形拟合反演}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}波形分解}{7}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}格林函数库}{8}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}格点搜索}{10}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}数据质量影响}{11}{section.2.3}
