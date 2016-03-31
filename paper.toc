@@ -22,21 +22,21 @@
 \contentsline {subsection}{\numberline {2.3.4}小结}{12}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}定权优化方案}{13}{section.2.4}
 \contentsline {section}{\numberline {2.5}误差评定方法}{15}{section.2.5}
-\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}理论实验}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}实验设定说明}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}权重优化检验}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}不同加权反演测试}{16}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}误差评定检验}{19}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}理论实验反演过程}{19}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}不同噪声强度测试}{20}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}不同反演次数测试}{22}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}案例选取}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}数据处理}{25}{section.4.2}
-\contentsline {section}{\numberline {4.3}结果分析}{26}{section.4.3}
-\contentsline {section}{\numberline {4.4}讨论和结论}{28}{section.4.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}总结}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}展望}{34}{section.5.2}
-\contentsline {chapter}{参考文献}{35}{section*.22}
-\contentsline {chapter}{致谢}{42}{chapter*.24}
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}理论实验}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}实验设定说明}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}权重优化检验}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}不同加权反演测试}{17}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}误差评定检验}{20}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}理论实验反演过程}{20}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}不同噪声强度测试}{21}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}不同反演次数测试}{23}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}案例选取}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}数据处理}{26}{section.4.2}
+\contentsline {section}{\numberline {4.3}结果分析}{27}{section.4.3}
+\contentsline {section}{\numberline {4.4}讨论和结论}{29}{section.4.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}总结}{34}{section.5.1}
+\contentsline {section}{\numberline {5.2}展望}{35}{section.5.2}
+\contentsline {chapter}{参考文献}{36}{section*.23}
+\contentsline {chapter}{致谢}{43}{chapter*.25}
