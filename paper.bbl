@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{82}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -103,6 +103,11 @@ Kisslinger C, 1980.
 \newblock Evaluation of S to P amplitude ratios for determining focal
   mechanisms from regional network observations[J].
 \newblock Bulletin of the Seismological Society of America, 70(4):999--1014.
+
+\bibitem[吴大铭 et al.(1989)]{wudaming1989}
+吴大铭, 王培德, 陈运泰, 1989.
+\newblock 用SH波和P波振幅比确定震源机制解[J].
+\newblock 地震学报, 11(3):275--281.
 
 \bibitem[祁玉萍 et al.(2013)]{qiyuping2013}
 祁玉萍, 李闽峰, 李圣强, et al, 2013.
