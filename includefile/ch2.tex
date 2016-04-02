@@ -270,7 +270,32 @@ CPS和CAP的权重均用震中距的函数进行计算定值，这主要考虑�
 
 \section{误差评定方法}
 
-实际工作中利用随机样本分析总体的统计学原理，主要分为三大步，具体可参考如图\ref{fig2_04}所示的流程图。
+\subsection{理论依据}
+由于本文主要研究观测数据噪声导致的反演结果误差，首先分析观测数据噪声与反演结果的关系。为简单描述，以离散的线性反演问题为例，该案例详细推导说明可参考讲义。设待求解矢量$m$与观测数据矢量$d$的关系为\refeq{eq2_17}，其中$A$为参数矩阵，$\epsilon$为观测数据的随机噪声矢量。
+\begin{equation}
+\label{eq2_17}
+	Am+\epsilon=d
+\end{equation}
+
+对\refeq{eq2_17}求解，可推得$m$的估计量$\tilde{M}$的误差为\refeq{eq2_18}，其中${\delta}d$与${\delta}\epsilon$相等。
+\begin{equation}
+\label{eq2_18}
+	\delta{\tilde{M}}=A^{-g}{\delta}d
+\end{equation}
+
+接下来利用概率论和统计学原理，假设对以上离散线性反演问题进行足够多次独立重复观测并反演的实验，则\refeq{eq2_18}经统计可得到的关于$\delta{\tilde{M}}$的协方差矩阵如\refeq{2_19}所示，其中$\left \langle \right \rangle$表示大量重复实验并统计。
+\begin{equation}
+\label{eq2_19}
+	\left \langle \delta{\tilde{M}}(\delta{\tilde{M}})^T \right \rangle=
+	A^{-g}\left \langle {\delta}d({\delta}d)^T \right \rangle  (A^{-g})^T
+\end{equation}
+
+根据\refeq{2_19}可知，概率统计意义上，关于待求解量$m$的协方差信息完全可由多次观测数据的噪声${\delta}d$计算得到。本文震源机制反演用的是全局格点搜索方法，属于非线性反演。但是只要将\refeq{eq2_17}描述的问题一般化，仍然可以推得非线性反演中对应\refeq{eq2_19}的类似公式，待求解量$m$的协方差矩阵仍然可由大量具有不同噪声$\epsilon$的$d$对应的解经统计得到。
+
+基于以上原理，尝试在震源机制格点搜索反演中提出具体方案，对震源机制的误差进行评价。通过上面分析可知对应于一个包含数据噪声$\epsilon$的观测数据$d$可格点搜索计算出一个$\tilde{m}$，因此多个包含不同数据噪声$\epsilon$的$d$即对应了大量$tilde{m}$，对其进行统计分析即可得到$m$协方差矩阵的估计值。上述方案的关键点在于如何得到大量不同的但合理的数据噪声$\epsilon$，在现实观测中，通常$\epsilon$都近似符合高斯分布，因此只要事先分析得到$\epsilon$的概率分布函数，便可人工生成任意多的随机噪声$\epsilon$。
+
+\subsection{方法步骤}
+实际利用随机样本分析总体的统计学原理，在格点搜索反演时得到震源机制误差评价的过程主要分为三大步，具体可参考如图\ref{fig2_04}所示的流程图。
 \begin{figure}
 \centering
   \includegraphics[scale=1.0]{fig2_04.pdf} 

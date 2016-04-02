@@ -22,6 +22,8 @@
 \contentsline {subsection}{\numberline {2.3.4}小结}{14}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}定权优化方案}{14}{section.2.4}
 \contentsline {section}{\numberline {2.5}误差评定方法}{16}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}理论依据}{16}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}方法步骤}{17}{subsection.2.5.2}
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}理论实验}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}实验设定说明}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}权重优化检验}{19}{section.3.2}
