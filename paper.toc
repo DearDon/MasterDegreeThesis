@@ -35,18 +35,18 @@
 \contentsline {subsection}{\numberline {3.2.3}结论}{26}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}误差评定方法检验}{27}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}理论实验误差评价过程}{27}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}检验目标}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}检验目标}{28}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}对照组设定}{28}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}结果讨论}{28}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}结论}{29}{subsection.3.3.5}
-\contentsline {section}{\numberline {3.4}误差评定反演次数测试}{30}{section.3.4}
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}案例选取}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}数据处理}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}结果分析}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}讨论和结论}{36}{section.4.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}总结}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}展望}{42}{section.5.2}
-\contentsline {chapter}{参考文献}{43}{section*.28}
-\contentsline {chapter}{致谢}{50}{chapter*.30}
+\contentsline {subsection}{\numberline {3.3.4}结果及讨论}{29}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}结论}{31}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}误差评定反演次数测试}{32}{section.3.4}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}案例选取}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}数据处理}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}结果分析}{34}{section.4.3}
+\contentsline {section}{\numberline {4.4}讨论和结论}{37}{section.4.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}总结}{42}{section.5.1}
+\contentsline {section}{\numberline {5.2}展望}{43}{section.5.2}
+\contentsline {chapter}{参考文献}{44}{section*.28}
+\contentsline {chapter}{致谢}{51}{chapter*.30}

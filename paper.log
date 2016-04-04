@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  4 APR 2016 16:03
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  4 APR 2016 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2096,12 +2096,16 @@ File: figures/fig3_03.pdf Graphic file (type QTm)
 <use  "figures/fig3_03.pdf" >
 File: figures/fig3_04.pdf Graphic file (type QTm)
  <use  "figures/fig3_04.pdf" > [24] [25] [26]
-[27] [28] [29]) [30] [31]
+[27] [28] [29]
+
+LaTeX Warning: Reference `2_19' on page 30 undefined on input line 239.
+
+[30] [31]) [32]
 \openout2 = `includefile/ch4.aux'.
 
  (./includefile/ch4.tex
 第四章
-[32
+[33
 
 
 
@@ -2112,7 +2116,7 @@ File: figures/fig4_02.pdf Graphic file (type QTm)
  <use  "figures/fig4_02.pdf" >
 File: figures/fig4_03.pdf Graphic file (type QTm)
 
-<use  "figures/fig4_03.pdf" > [33] [34]
+<use  "figures/fig4_03.pdf" > [34] [35]
 File: figures/fig4_04.pdf Graphic file (type QTm)
  <use  "figures/fig4_04.pdf" >
 File: figures/fig4_05.pdf Graphic file (type QTm)
@@ -2121,38 +2125,38 @@ File: figures/fig4_05.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 27.28847pt on input line 78.
 
-[35] [36] [37]
+[36] [37] [38]
 Missing character: There is no  in font [lmroman12-regular]:mapping=tex-text!
 File: figures/fig4_06.pdf Graphic file (type QTm)
- <use  "figures/fig4_06.pdf" > [38] [39]) [40]
+ <use  "figures/fig4_06.pdf" > [39] [40]) [41]
 \openout2 = `includefile/ch5.aux'.
 
 
 (./includefile/ch5.tex
 第五章
-[41
+[42
 
 
 
-]) [42] (./paper.bbl [43
+]) [43] (./paper.bbl [44
 
 
 
 ]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [44] [45] [46] [47]
+ [45] [46] [47] [48]
 Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
 Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text!
- [48]) [49]
+ [49]) [50]
 \openout2 = `includefile/backmatter.aux'.
 
 
-(./includefile/backmatter.tex [50
+(./includefile/backmatter.tex [51
 
 
 
 
-]) [51
+]) [52
 
 ]
 \tf@thm=\write5
@@ -2166,15 +2170,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
 (./includefile/ch4.aux) (./includefile/ch5.aux) (./includefile/backmatter.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 32219 strings out of 493706
- 622886 string characters out of 6145768
+ 32221 strings out of 493706
+ 622954 string characters out of 6145768
  662058 words of memory out of 5000000
- 35101 multiletter control sequences out of 15000+600000
+ 35103 multiletter control sequences out of 15000+600000
  15351 words of font info for 104 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  71i,15n,79p,10418b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (61 pages).
+Output written on paper.pdf (62 pages).
