@@ -26,19 +26,19 @@
 \contentsline {subsection}{\numberline {2.5.2}方法步骤}{18}{subsection.2.5.2}
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}理论实验}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}实验设定说明}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}权重优化检验}{21}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}不同加权反演测试}{21}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}误差评定检验}{25}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}理论实验反演过程}{25}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.2}权重优化检验}{22}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}不同加权反演测试}{22}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}误差评定检验}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}理论实验反演过程}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}不同噪声强度测试}{26}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}不同反演次数测试}{28}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{30}{chapter.4}
-\contentsline {section}{\numberline {4.1}案例选取}{30}{section.4.1}
-\contentsline {section}{\numberline {4.2}数据处理}{31}{section.4.2}
-\contentsline {section}{\numberline {4.3}结果分析}{31}{section.4.3}
-\contentsline {section}{\numberline {4.4}讨论和结论}{34}{section.4.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}总结}{39}{section.5.1}
-\contentsline {section}{\numberline {5.2}展望}{40}{section.5.2}
-\contentsline {chapter}{参考文献}{41}{section*.28}
-\contentsline {chapter}{致谢}{48}{chapter*.30}
+\contentsline {subsection}{\numberline {3.3.3}不同反演次数测试}{29}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}实例应用}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}案例选取}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}数据处理}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}结果分析}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}讨论和结论}{35}{section.4.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{40}{chapter.5}
+\contentsline {section}{\numberline {5.1}总结}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}展望}{41}{section.5.2}
+\contentsline {chapter}{参考文献}{42}{section*.28}
+\contentsline {chapter}{致谢}{49}{chapter*.30}
