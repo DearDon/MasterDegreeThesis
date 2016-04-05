@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  5 APR 2016 11:11
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  5 APR 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2107,52 +2107,53 @@ File: figures/fig3_04.pdf Graphic file (type QTm)
 
 ]
 File: figures/fig4_01.pdf Graphic file (type QTm)
- <use  "figures/fig4_01.pdf" >
+ <use  "figures/fig4_01.pdf" > [36]
 File: figures/fig4_02.pdf Graphic file (type QTm)
- <use  "figures/fig4_02.pdf" >
+ <use  "figures/fig4_02.pdf" > [37]
 File: figures/fig4_03.pdf Graphic file (type QTm)
 
-<use  "figures/fig4_03.pdf" > [36] [37]
+<use  "figures/fig4_03.pdf" > [38]
 File: figures/fig4_04.pdf Graphic file (type QTm)
  <use  "figures/fig4_04.pdf" >
 File: figures/fig4_05.pdf Graphic file (type QTm)
 
 <use  "figures/fig4_05.pdf" >
 
-LaTeX Warning: Float too large for page by 27.28847pt on input line 78.
+LaTeX Warning: Float too large for page by 27.28847pt on input line 88.
 
-[38] [39] [40]
+[39]
 Missing character: There is no  in font [lmroman12-regular]:mapping=tex-text!
+ [40] [41]
 File: figures/fig4_06.pdf Graphic file (type QTm)
- <use  "figures/fig4_06.pdf" > [41] [42]) [43]
+ <use  "figures/fig4_06.pdf" > [42]) [43] [44]
 \openout2 = `includefile/ch5.aux'.
 
 
 (./includefile/ch5.tex
 第五章
-[44
+[45
 
 
 
-]) [45] (./paper.bbl [46
+]) [46] (./paper.bbl [47
 
 
 
 ]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [47] [48] [49] [50]
+ [48] [49] [50] [51]
 Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
 Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text!
- [51]) [52]
+ [52]) [53]
 \openout2 = `includefile/backmatter.aux'.
 
 
-(./includefile/backmatter.tex [53
+(./includefile/backmatter.tex [54
 
 
 
 
-]) [54
+]) [55
 
 ]
 \tf@thm=\write5
@@ -2177,4 +2178,4 @@ Here is how much of TeX's memory you used:
  1328 hyphenation exceptions out of 8191
  71i,15n,79p,10418b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (64 pages).
+Output written on paper.pdf (65 pages).
