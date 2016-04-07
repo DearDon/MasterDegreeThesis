@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  6 APR 2016 18:45
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  7 APR 2016 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2063,12 +2063,11 @@ File: figures/fig2_02.pdf Graphic file (type QTm)
 
 
 ] [8] [9]
-[10] [11] [12] [13] [14]
+[10] [11] [12] [13]
 File: figures/fig2_03.pdf Graphic file (type QTm)
- <use  "figures/fig2_03.pdf" >
-Overfull \hbox (3.3694pt too wide) in paragraph at lines 274--275
- [][] 
- []
+ <use  "figures/fig2_03.pdf" > [14]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15] [16]
 Overfull \hbox (2.11655pt too wide) in paragraph at lines 296--297
@@ -2076,9 +2075,8 @@ Overfull \hbox (2.11655pt too wide) in paragraph at lines 296--297
  复 观 测 并 反 演 的 实 验，|  则 式 []变
  []
 
-[17]
 File: figures/fig2_04.pdf Graphic file (type QTm)
- <use  "figures/fig2_04.pdf" > [18] [19]) [20]
+<use  "figures/fig2_04.pdf" > [17]) [18] [19]
 \openout2 = `includefile/ch3.aux'.
 
  (./includefile/ch3.tex
@@ -2086,73 +2084,73 @@ File: figures/fig2_04.pdf Graphic file (type QTm)
 File: figures/fig3_01.pdf Graphic file (type QTm)
 <use  "figures/fig3_01.pdf" >
 File: figures/fig3_02.pdf Graphic file (type QTm)
- <use  "figures/fig3_02.pdf" > [21
+ <use  "figures/fig3_02.pdf" > [20
 
 
 
-] [22] [23]
+] [21] [22]
 File: figures/fig3_03.pdf Graphic file (type QTm)
 
 <use  "figures/fig3_03.pdf" >
 File: figures/fig3_04.pdf Graphic file (type QTm)
- <use  "figures/fig3_04.pdf" > [24] [25] [26]
-[27] [28] [29] [30] [31] [32] [33]) [34]
+ <use  "figures/fig3_04.pdf" > [23] [24] [25]
+[26] [27] [28] [29] [30] [31] [32]) [33]
 \openout2 = `includefile/ch4.aux'.
 
  (./includefile/ch4.tex
 第四章
-[35
+[34
 
 
 
 ]
 File: figures/fig4_01.pdf Graphic file (type QTm)
- <use  "figures/fig4_01.pdf" > [36]
+ <use  "figures/fig4_01.pdf" > [35]
 File: figures/fig4_02.pdf Graphic file (type QTm)
- <use  "figures/fig4_02.pdf" > [37]
+ <use  "figures/fig4_02.pdf" > [36]
 File: figures/fig4_03.pdf Graphic file (type QTm)
 
-<use  "figures/fig4_03.pdf" > [38] [39]
+<use  "figures/fig4_03.pdf" > [37] [38]
 File: figures/fig4_04.pdf Graphic file (type QTm)
- <use  "figures/fig4_04.pdf" > [40]
+ <use  "figures/fig4_04.pdf" > [39]
 File: figures/fig4_05.pdf Graphic file (type QTm)
 
 <use  "figures/fig4_05.pdf" >
 
 LaTeX Warning: Float too large for page by 27.28847pt on input line 112.
 
-[41] [42] [43]
+[40] [41] [42]
 Missing character: There is no  in font [lmroman12-regular]:mapping=tex-text!
 File: figures/fig4_06.pdf Graphic file (type QTm)
- <use  "figures/fig4_06.pdf" > [44] [45]) [46] [47]
+ <use  "figures/fig4_06.pdf" > [43] [44]) [45] [46]
 \openout2 = `includefile/ch5.aux'.
 
 
 (./includefile/ch5.tex
 第五章
-[48
+[47
 
 
 
-]) [49] (./paper.bbl [50
+]) [48] (./paper.bbl [49
 
 
 
 ]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [51] [52] [53] [54]
+ [50] [51] [52] [53]
 Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
 Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text!
- [55]) [56]
+ [54]) [55]
 \openout2 = `includefile/backmatter.aux'.
 
 
-(./includefile/backmatter.tex [57
+(./includefile/backmatter.tex [56
 
 
 
 
-]) [58
+]) [57
 
 ]
 \tf@thm=\write5
@@ -2171,10 +2169,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
 Here is how much of TeX's memory you used:
  32224 strings out of 493706
  622992 string characters out of 6145768
- 660162 words of memory out of 5000000
+ 660174 words of memory out of 5000000
  35106 multiletter control sequences out of 15000+600000
  15351 words of font info for 104 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 71i,15n,79p,10418b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,14n,79p,10418b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (68 pages).
+Output written on paper.pdf (67 pages).
