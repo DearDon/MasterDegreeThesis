@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  7 APR 2016 09:24
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  7 APR 2016 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2132,25 +2132,25 @@ File: figures/fig4_06.pdf Graphic file (type QTm)
 
 
 
-]) [48] (./paper.bbl [49
+]) [48] [49] (./paper.bbl [50
 
 
 
 ]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [50] [51] [52] [53]
+ [51] [52] [53] [54]
 Invalid UTF-8 byte or sequence at line 399 replaced by U+FFFD.
 Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text!
- [54]) [55]
+ [55]) [56]
 \openout2 = `includefile/backmatter.aux'.
 
 
-(./includefile/backmatter.tex [56
+(./includefile/backmatter.tex [57
 
 
 
 
-]) [57
+]) [58
 
 ]
 \tf@thm=\write5
@@ -2175,4 +2175,4 @@ Here is how much of TeX's memory you used:
  1328 hyphenation exceptions out of 8191
  71i,14n,79p,10418b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (67 pages).
+Output written on paper.pdf (68 pages).
