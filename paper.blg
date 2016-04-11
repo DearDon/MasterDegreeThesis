@@ -13,44 +13,44 @@ A level-1 auxiliary file: includefile/backmatter.aux
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: BIBbase/ref.bib
-You've used 83 entries,
+You've used 82 entries,
             6728 wiz_defined-function locations,
-            1768 strings with 22930 characters,
-and the built_in function-call counts, 29300 in all, are:
-= -- 2786
-> -- 970
-< -- 37
-+ -- 537
-- -- 227
-* -- 2163
-:= -- 4238
-add.period$ -- 246
-call.type$ -- 83
-change.case$ -- 83
-chr.to.int$ -- 83
-cite$ -- 83
-duplicate$ -- 1207
-empty$ -- 3269
-format.name$ -- 404
-if$ -- 6730
+            1761 strings with 22816 characters,
+and the built_in function-call counts, 29012 in all, are:
+= -- 2757
+> -- 966
+< -- 36
++ -- 534
+- -- 226
+* -- 2146
+:= -- 4195
+add.period$ -- 243
+call.type$ -- 82
+change.case$ -- 82
+chr.to.int$ -- 82
+cite$ -- 82
+duplicate$ -- 1193
+empty$ -- 3233
+format.name$ -- 402
+if$ -- 6663
 int.to.chr$ -- 1
-int.to.str$ -- 84
-missing$ -- 88
-newline$ -- 419
-num.names$ -- 166
-pop$ -- 568
+int.to.str$ -- 83
+missing$ -- 87
+newline$ -- 414
+num.names$ -- 164
+pop$ -- 563
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 82
 quote$ -- 0
-skip$ -- 1038
+skip$ -- 1028
 stack$ -- 0
-substring$ -- 2013
-swap$ -- 83
+substring$ -- 1995
+swap$ -- 82
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 320
+type$ -- 316
 warning$ -- 0
-while$ -- 217
+while$ -- 214
 width$ -- 0
-write$ -- 1073
+write$ -- 1060
