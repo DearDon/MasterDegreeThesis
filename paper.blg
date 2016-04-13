@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
-The style file: whuthesis.bst
+The style file: humannat.bst
 A level-1 auxiliary file: includefile/frontmatter.aux
 A level-1 auxiliary file: includefile/midmatter.aux
 A level-1 auxiliary file: includefile/ch1.aux
@@ -10,47 +10,45 @@ A level-1 auxiliary file: includefile/ch3.aux
 A level-1 auxiliary file: includefile/ch4.aux
 A level-1 auxiliary file: includefile/ch5.aux
 A level-1 auxiliary file: includefile/backmatter.aux
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: BIBbase/ref.bib
 You've used 82 entries,
-            6728 wiz_defined-function locations,
-            1761 strings with 22816 characters,
-and the built_in function-call counts, 29012 in all, are:
-= -- 2757
-> -- 966
-< -- 36
-+ -- 534
-- -- 226
-* -- 2146
-:= -- 4195
-add.period$ -- 243
+            2155 wiz_defined-function locations,
+            1065 strings with 18239 characters,
+and the built_in function-call counts, 35776 in all, are:
+= -- 3456
+> -- 1554
+< -- 38
++ -- 582
+- -- 564
+* -- 3493
+:= -- 6202
+add.period$ -- 246
 call.type$ -- 82
-change.case$ -- 82
+change.case$ -- 682
 chr.to.int$ -- 82
 cite$ -- 82
-duplicate$ -- 1193
-empty$ -- 3233
-format.name$ -- 402
-if$ -- 6663
+duplicate$ -- 1152
+empty$ -- 2420
+format.name$ -- 678
+if$ -- 6810
 int.to.chr$ -- 1
-int.to.str$ -- 83
+int.to.str$ -- 0
 missing$ -- 87
-newline$ -- 414
-num.names$ -- 164
-pop$ -- 563
+newline$ -- 413
+num.names$ -- 246
+pop$ -- 523
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 688
 quote$ -- 0
-skip$ -- 1028
+skip$ -- 853
 stack$ -- 0
-substring$ -- 1995
-swap$ -- 82
-text.length$ -- 0
+substring$ -- 2830
+swap$ -- 171
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 316
+type$ -- 480
 warning$ -- 0
-while$ -- 214
+while$ -- 296
 width$ -- 0
-write$ -- 1060
+write$ -- 1062
