@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  11 APR 2016 17:15
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  13 APR 2016 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2124,22 +2124,21 @@ File: figures/fig4_01.pdf Graphic file (type QTm)
  <use  "figures/fig4_01.pdf" >
 File: figures/fig4_02.pdf Graphic file (type QTm)
  <use  "figures/fig4_02.pdf" > [36] [37]
-[38]
 File: figures/fig4_03.pdf Graphic file (type QTm)
- <use  "figures/fig4_03.pdf" > [39]
+
+<use  "figures/fig4_03.pdf" > [38] [39]
 File: figures/fig4_04.pdf Graphic file (type QTm)
  <use  "figures/fig4_04.pdf" > [40]
-[41]
 File: figures/fig4_05.pdf Graphic file (type QTm)
- <use  "figures/fig4_05.pdf" >
+
+<use  "figures/fig4_05.pdf" >
 
 LaTeX Warning: Float too large for page by 27.28847pt on input line 112.
 
-[42] [43]
+[41] [42] [43]
 Missing character: There is no  in font [lmroman12-regular]:mapping=tex-text!
- [44]
 File: figures/fig4_06.pdf Graphic file (type QTm)
- <use  "figures/fig4_06.pdf" > [45] [46]) [47]
+ <use  "figures/fig4_06.pdf" > [44] [45]) [46] [47]
 \openout2 = `includefile/ch5.aux'.
 
 

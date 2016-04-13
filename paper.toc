@@ -49,11 +49,11 @@
 \contentsline {section}{\numberline {4.2}反演方案}{35}{section.4.2}
 \contentsline {section}{\numberline {4.3}数据处理}{36}{section.4.3}
 \contentsline {section}{\numberline {4.4}反演结果}{37}{section.4.4}
-\contentsline {section}{\numberline {4.5}分析讨论}{39}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}结果分析}{39}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}其它震源研究}{42}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}相关地质背景}{45}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}结论}{47}{section.4.6}
+\contentsline {section}{\numberline {4.5}分析讨论}{38}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}结果分析}{38}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}其它震源研究}{43}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}相关地质背景}{44}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}结论}{46}{section.4.6}
 \contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{48}{chapter.5}
 \contentsline {section}{\numberline {5.1}主要创新点}{48}{section.5.1}
 \contentsline {section}{\numberline {5.2}工作总结}{48}{section.5.2}
