@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  13 APR 2016 11:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  13 APR 2016 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2155,30 +2155,16 @@ File: figures/fig4_06.pdf Graphic file (type QTm)
 
 ] [52] [53]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [54] [55]
-Underfull \hbox (badness 1117) in paragraph at lines 322--326
-\EU1/lmr/m/n/12.045 2013.  \EU1/AdobeSongStd-Light(0)/m/n/12.045 芦 山 \EU1/lmr/m
-/n/12.045 7.0 \EU1/AdobeSongStd-Light(0)/m/n/12.045 级 地 震 序 列 的 震 源 位 置 与 震 源 机
- 制 解 特 征\EU1/lmr/m/n/12.045 .  \EU1/AdobeSongStd-Light(0)/m/it/12.045 地 球 物 理 学
- 报\EU1/lmr/m/n/12.045 ,
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 338--342
-\EU1/lmr/m/n/12.045 2013.  \EU1/AdobeSongStd-Light(0)/m/n/12.045 龙 门 山 断 裂 带 现 
-今 构 造 应 力 场 特 征 及 分 段 性 研 究\EU1/lmr/m/n/12.045 .  \EU1/AdobeSongStd-Light(0)/m/
-it/12.045 地 球 物 理 学 进 展\EU1/lmr/m/n/12.045 ,
- []
-
-[56] [57]) [58]
+ [54] [55] [56]) [57]
 \openout2 = `includefile/backmatter.aux'.
 
- (./includefile/backmatter.tex [59
+
+(./includefile/backmatter.tex [58
 
 
 
 
-]) [60
+]) [59
 
 ]
 \tf@thm=\write5
@@ -2195,12 +2181,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 78.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
- 32226 strings out of 493706
- 623150 string characters out of 6145768
- 660175 words of memory out of 5000000
- 35105 multiletter control sequences out of 15000+600000
- 15367 words of font info for 106 fonts, out of 8000000 for 9000
+ 32220 strings out of 493706
+ 622938 string characters out of 6145768
+ 660019 words of memory out of 5000000
+ 35102 multiletter control sequences out of 15000+600000
+ 15351 words of font info for 104 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 71i,14n,79p,10418b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,14n,79p,10418b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (70 pages).
+Output written on paper.pdf (69 pages).
