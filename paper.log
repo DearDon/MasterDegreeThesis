@@ -2152,11 +2152,8 @@ File: figures/fig4_06.pdf Graphic file (type QTm)
 
 
 
-]
+] [52] [53] [54] [55]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [52] [53] [54] [55]
-Invalid UTF-8 byte or sequence at line 394 replaced by U+FFFD.
-Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text!
  [56]) [57]
 \openout2 = `includefile/backmatter.aux'.
 
@@ -2183,12 +2180,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 32221 strings out of 493706
- 622941 string characters out of 6145768
- 660175 words of memory out of 5000000
- 35103 multiletter control sequences out of 15000+600000
+ 32223 strings out of 493706
+ 623001 string characters out of 6145768
+ 660034 words of memory out of 5000000
+ 35105 multiletter control sequences out of 15000+600000
  15351 words of font info for 104 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 71i,14n,79p,10418b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,14n,79p,10418b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on paper.pdf (69 pages).
