@@ -54,9 +54,9 @@
 \contentsline {subsection}{\numberline {4.5.2}其它震源研究}{43}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}相关地质背景}{44}{subsection.4.5.3}
 \contentsline {section}{\numberline {4.6}结论}{46}{section.4.6}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{48}{chapter.5}
-\contentsline {section}{\numberline {5.1}主要创新点}{48}{section.5.1}
-\contentsline {section}{\numberline {5.2}工作总结}{48}{section.5.2}
-\contentsline {section}{\numberline {5.3}展望}{49}{section.5.3}
-\contentsline {chapter}{参考文献}{51}{section*.30}
-\contentsline {chapter}{致谢}{58}{chapter*.32}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}主要创新点}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}工作总结}{49}{section.5.2}
+\contentsline {section}{\numberline {5.3}展望}{50}{section.5.3}
+\contentsline {chapter}{参考文献}{53}{section*.30}
+\contentsline {chapter}{致谢}{61}{chapter*.32}
