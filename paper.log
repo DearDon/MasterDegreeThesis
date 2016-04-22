@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  22 APR 2016 11:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  22 APR 2016 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1785,7 +1785,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(79.6678pt, 446.70819pt, 71.13188pt)
 * v-part:(T,H,B)=(85.35826pt, 677.17577pt, 82.51282pt)
 * \paperwidth=597.50787pt
@@ -1793,13 +1793,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \textwidth=446.70819pt
 * \textheight=677.17577pt
 * \oddsidemargin=7.39781pt
-* \evensidemargin=-1.1381pt
+* \evensidemargin=7.39781pt
 * \topmargin=-18.78552pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=88.0pt
+* \marginparwidth=38.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -1807,8 +1807,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -2012,21 +2012,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 .................................................
  [1
 
-] [2
-
 ]
 \openout2 = `includefile/frontmatter.aux'.
 
 
 (./includefile/frontmatter.tex
 File: figures/whu.eps Graphic file (type eps)
- <figures/whu.eps> [3
+ <figures/whu.eps> [2
 
-] [4
-
-] [5] [6
-
-])
+]) [3]
 \openout2 = `includefile/midmatter.aux'.
 
 
@@ -2045,27 +2039,18 @@ File: figures/whu.eps Graphic file (type eps)
 \openout4 = `paper.toc'.
 
  [7]
-[8
-
-]
 \openout2 = `includefile/ch1.aux'.
 
- (./includefile/ch1.tex
+
+(./includefile/ch1.tex
 第一章
+[1
 
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [1
 
 
 ]
 File: figures/fig1_01.pdf Graphic file (type QTm)
-
-<use  "figures/fig1_01.pdf" >
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
- [2]
-[3] [4] [5]) [6]
+ <use  "figures/fig1_01.pdf" > [2] [3] [4] [5]) [6]
 \openout2 = `includefile/ch2.aux'.
 
  (./includefile/ch2.tex
@@ -2073,24 +2058,18 @@ Underfull \vbox (badness 7433) has occurred while \output is active []
 File: figures/fig2_01.pdf Graphic file (type QTm)
 <use  "figures/fig2_01.pdf" >
 File: figures/fig2_02.pdf Graphic file (type QTm)
- <use  "figures/fig2_02.pdf" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7
+ <use  "figures/fig2_02.pdf" > [7
 
 
 
-]
-[8] [9] [10] [11] [12] [13] [14]
+] [8] [9]
+[10] [11] [12] [13] [14]
 File: figures/fig2_03.pdf Graphic file (type QTm)
  <use  "figures/fig2_03.pdf" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15]
-Underfull \vbox (badness 3536) has occurred while \output is active []
-
- [16]
+[15] [16]
 Overfull \hbox (2.11655pt too wide) in paragraph at lines 288--289
 []\EU1/AdobeSongStd-Light(0)/m/n/12.045 假 设 对 以 上 离 散 线 性 反 演 问 题 进 行 多 次 独 立 重
  复 观 测 并 反 演 的 实 验，|  则 式 []变
@@ -2115,22 +2094,8 @@ File: figures/fig3_03.pdf Graphic file (type QTm)
 
 <use  "figures/fig3_03.pdf" >
 File: figures/fig3_04.pdf Graphic file (type QTm)
- <use  "figures/fig3_04.pdf" > [24] [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \vbox (badness 1348) has occurred while \output is active []
-
- [27]
-[28] [29]
-Underfull \vbox (badness 3189) has occurred while \output is active []
-
- [30]
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-[33]) [34]
+ <use  "figures/fig3_04.pdf" > [24] [25] [26]
+[27] [28] [29] [30] [31] [32] [33]) [34]
 \openout2 = `includefile/ch4.aux'.
 
  (./includefile/ch4.tex
@@ -2155,51 +2120,36 @@ File: figures/fig4_05.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 27.28847pt on input line 112.
 
-[40]
-Underfull \vbox (badness 1824) has occurred while \output is active []
-
- [41]
-[42]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
+[40] [41] [42] [43]
 File: figures/fig4_06.pdf Graphic file (type QTm)
-
-<use  "figures/fig4_06.pdf" > [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45])
-[46]
+ <use  "figures/fig4_06.pdf" > [44] [45]) [46]
 \openout2 = `includefile/ch5.aux'.
 
- (./includefile/ch5.tex
+
+(./includefile/ch5.tex
 第五章
 [47
 
 
 
-] [48]) [49] [50
+] [48]) [49] (./paper.bbl [50
 
 
-] (./paper.bbl [51
 
-] [52] [53] [54] [55]
+] [51] [52] [53] [54]
 Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
- [56]) [57] [58
-
-]
+ [55]) [56]
 \openout2 = `includefile/backmatter.aux'.
 
 
-(./includefile/backmatter.tex [59
+(./includefile/backmatter.tex [57
 
 
 
-] [60
 
-] [61] [62
+]) [58
 
-])
+]
 \tf@thm=\write5
 \openout5 = `paper.thm'.
 
@@ -2214,12 +2164,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 79.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 32231 strings out of 493706
- 623556 string characters out of 6145768
- 662030 words of memory out of 5000000
- 35113 multiletter control sequences out of 15000+600000
+ 32232 strings out of 493706
+ 623580 string characters out of 6145768
+ 662036 words of memory out of 5000000
+ 35114 multiletter control sequences out of 15000+600000
  15351 words of font info for 104 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 71i,14n,79p,10416b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,14n,79p,10418b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (76 pages).
+Output written on paper.pdf (68 pages).
