@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  21 APR 2016 16:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  22 APR 2016 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2142,12 +2142,9 @@ Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
 \openout2 = `includefile/backmatter.aux'.
 
 
-(./includefile/backmatter.tex [57
+(./includefile/backmatter.tex) [57
 
 
-
-
-]) [58
 
 ]
 \tf@thm=\write5
@@ -2155,10 +2152,10 @@ Missing character: There is no ≥ in font [lmroman12-regular]:mapping=tex-text!
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
- (./paper.aux
-(./includefile/frontmatter.aux) (./includefile/midmatter.aux)
-(./includefile/ch1.aux) (./includefile/ch2.aux) (./includefile/ch3.aux)
-(./includefile/ch4.aux) (./includefile/ch5.aux) (./includefile/backmatter.aux))
+ (./paper.aux (./includefile/frontmatter.aux) (./includefile/midmatter.aux) (./
+includefile/ch1.aux) (./includefile/ch2.aux) (./includefile/ch3.aux) (./include
+file/ch4.aux) (./includefile/ch5.aux)
+(./includefile/backmatter.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 79.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
@@ -2172,4 +2169,4 @@ Here is how much of TeX's memory you used:
  1328 hyphenation exceptions out of 8191
  71i,14n,79p,10418b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (68 pages).
+Output written on paper.pdf (67 pages).
