@@ -41,12 +41,16 @@
 
 \pagestyle{fancyplain}
 \fancyhf{}  %清除以前对页眉页脚的设置
-\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0.5pt}
+\fancyhead[CO]{波形拟合反演震源机制的定权研究及误差评定}                                    % clear all header fields
+\fancyhead[CE]{武汉大学硕士学位论文}                                    % clear all header fields
 \fancyfoot[C]{-\,\thepage\,-}
 \fancypagestyle{plain}
 {
 \fancyhead{}                                    % clear all header fields
-\renewcommand{\headrulewidth}{0pt}
+\fancyhead[CO]{波形拟合反演震源机制的定权研究及误差评定}                                    % clear all header fields
+\fancyhead[CE]{武汉大学硕士学位论文}                                    % clear all header fields
+\renewcommand{\headrulewidth}{0.5pt}
 \fancyfoot{}                                    % clear all footer fields
 \fancyfoot[C]{-\,\thepage\,-}
 }
@@ -67,7 +71,8 @@
     }
     \par
     \vspace*{15mm} %插入空白
-    {\songti \zihao{2} \ziju{0.5} 武汉大学 \\[3mm]   硕士学位论文}\\
+	\includegraphics[height=1.59cm]{whuname.png}       %%  insert the name
+    {\songti \zihao{2} \ziju{0.90}  \\[3mm]   \textbf{硕士学位论文}}\\
     \vspace{2cm}
     {\kaishu \zihao{1}  \@title \par}%
 %    \vspace{4cm}

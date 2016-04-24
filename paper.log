@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  22 APR 2016 10:57
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.22)  24 APR 2016 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1891,6 +1891,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+File: figures/whuname.png Graphic file (type QTm)
+
+<use  "figures/whuname.png" >
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2017,10 +2020,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `includefile/frontmatter.aux'.
 
-
-(./includefile/frontmatter.tex
+ (./includefile/frontmatter.tex
 File: figures/whu.eps Graphic file (type eps)
- <figures/whu.eps> [3
+
+<figures/whu.eps> [3
 
 ] [4
 
@@ -2029,8 +2032,14 @@ File: figures/whu.eps Graphic file (type eps)
 ])
 \openout2 = `includefile/midmatter.aux'.
 
+ (./includefile/midmatter.tex
 
-(./includefile/midmatter.tex [1
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.69493pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
 
 
 
@@ -2044,8 +2053,7 @@ File: figures/whu.eps Graphic file (type eps)
 \tf@toc=\write4
 \openout4 = `paper.toc'.
 
- [7]
-[8
+ [7] [8
 
 ]
 \openout2 = `includefile/ch1.aux'.
@@ -2211,11 +2219,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 79.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 32231 strings out of 493706
- 623556 string characters out of 6145768
- 662030 words of memory out of 5000000
- 35113 multiletter control sequences out of 15000+600000
- 15351 words of font info for 104 fonts, out of 8000000 for 9000
+ 32237 strings out of 493706
+ 623697 string characters out of 6145768
+ 662139 words of memory out of 5000000
+ 35115 multiletter control sequences out of 15000+600000
+ 15359 words of font info for 105 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  71i,14n,79p,10416b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 
