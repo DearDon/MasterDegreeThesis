@@ -58,5 +58,5 @@
 \contentsline {section}{\numberline {5.1}主要创新点}{47}{section.5.1}
 \contentsline {section}{\numberline {5.2}工作总结}{47}{section.5.2}
 \contentsline {section}{\numberline {5.3}展望}{48}{section.5.3}
-\contentsline {chapter}{参考文献}{51}{section*.30}
-\contentsline {chapter}{致谢}{59}{chapter*.32}
+\contentsline {chapter}{参考文献}{50}{section*.30}
+\contentsline {chapter}{致谢}{57}{chapter*.32}
