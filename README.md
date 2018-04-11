@@ -1,5 +1,5 @@
 # Thesis
-it's a ~~private~~(public from 2018) repository to help finishing my Master degree thesis
+it's a ~~private~~(public from 2018) repository to help finishing my thesis for Master's degree.
 
 ## Usage:
 ### 1. To clone this repository in a new pc:
